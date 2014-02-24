@@ -48,34 +48,57 @@ public class PacMau5Movement : MonoBehaviour {
 	*/
 
 	// TODO IMPLEMENT THIS METHOD
-	/*
-	boolean canMove(string direction) {
+	bool CanMove(string direction) {
 		
 		// WHATEVER WE NEED TO DO TO FIND OUT IF WE CAN MOVE, BUT DO NOT MOVE
-		return false;
+		return true;
 	}
-	*/
 
 
 	void Move(string direction) {
 
-		Debug.Log ("Attempting to move " + direction);
-		float x = this.transform.position.x;
-		float z = this.transform.position.z;
+		if (CanMove (direction)) {
+			Debug.Log ("Attempting to move " + direction);
+			float x = this.transform.position.x;
+			float z = this.transform.position.z;
 
+
+
+			if (direction == "East") {
+				x += 1.0f/15.0f;
+			} else if (direction == "West") {
+				x += -1.0f/15.0f;
+			} else if (direction == "North") {
+				z += 1.0f/15.0f;
+			} else if (direction == "South") {
+				z += -1.0f/15.0f;
+			}
+			Vector3 newPosition = new Vector3 (x, this.transform.position.y, z);
+			this.transform.position = newPosition;
+			Rotate (direction);
+		}
+	}
+
+	void Rotate(string direction) {
+
+		float y = 0;;
 
 		if (direction == "East") {
-			x += 1;
+			Debug.Log ("Pointing player East");
+			y = 90.0f;
 		} else if (direction == "West") {
-			x += -1;
+			Debug.Log ("Pointing player West");
+			y = 270.0f;
 		} else if (direction == "North") {
-			z += 1;
+			y = 0.0f;
 		} else if (direction == "South") {
-			z += -1;
+			y = 180.0f;
 		}
-		Vector3 newPosition = new Vector3 (x,this.transform.position.y,z);
 
-		this.transform.position = newPosition;
+		Quaternion newRotation = Quaternion.identity;
+		newRotation.eulerAngles = new Vector3(0, y, 0);
+		//new Quaternion (this.transform.rotation.x, y, this.transform.rotation.z, this.transform.rotation.w);
+		this.transform.rotation = newRotation;
 	}
 
 	bool hasInput() {
