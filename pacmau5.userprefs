@@ -1,12 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PacMau5Movement.cs">
-    <Files>
-      <File FileName="Assets\PacMau5Movement.cs" Line="1" Column="1" />
-      <File FileName="Assets\PacMau5Movement.cs" Line="26" Column="20" />
-      <File FileName="D:\Development\Workspaces\Unity\TrashChaser\Assets\ShootyFacy.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
