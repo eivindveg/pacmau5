@@ -291,7 +291,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3fdebeb9d9ced5e478034f0fe7fd3cfa, type: 2}
+  - {fileID: 2100000, guid: 82f68c2ccc8d2244f8b32ab57ebb807c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -365,7 +365,7 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1553357672}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 26fe02e74a042234e894891545823b48, type: 3}
+  m_Texture: {fileID: 2800000, guid: 29bf73c4c19c1a64282c6c8fe373d86c, type: 3}
   m_Color: {r: 1.0147059, g: 1.0147059, b: 1.0147059, a: 0}
   m_PixelInset:
     serializedVersion: 2
