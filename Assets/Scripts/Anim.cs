@@ -6,14 +6,9 @@ public class Anim : MonoBehaviour {
 	
 	void Update () {
 		//Fix this.
-<<<<<<< HEAD
-		if(this.transform.rigidbody.velocity.magnitude > 0.2){
-=======
-	 	if (this.transform.rigidbody.velocity.magnitude > 0.2)
-        {
->>>>>>> origin/eivind-changes
-			anim.SetBool("isMoving",true);
 
+		if(this.transform.rigidbody.velocity.magnitude > 0.2){
+			anim.SetBool("isMoving",true);
 		}
         else
         {
