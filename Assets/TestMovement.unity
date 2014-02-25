@@ -604,6 +604,10 @@ Prefab:
       propertyPath: m_TagString
       value: TriggerDoll
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_RootGameObject: {fileID: 1653916126}
@@ -1621,7 +1625,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1856805580}
   - 114: {fileID: 1856805581}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: TriggerDoll
   m_TagString: TriggerDoll
   m_Icon: {fileID: 0}

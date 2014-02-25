@@ -1,67 +1,65 @@
 ﻿using UnityEngine;
-using System.Collections;
 
+// ReSharper disable once CheckNamespace
 public class TriggerDollScript : MonoBehaviour
 {
 
-    GameObject left;
-    GameObject right;
-    GameObject front;
-    public const float SCAN_DISTANCE = 1.0f / 15.0f;
+    GameObject _left;
+    GameObject _right;
+    GameObject _front;
+    public const float ScanDistance = 1.0f / 15.0f;
     // Use this for initialization
+// ReSharper disable once UnusedMember.Local
     void Start()
     {
-        left = this.transform.Find("LeftTrigger").gameObject;
-        right = this.transform.Find("RightTrigger").gameObject;
-        front = this.transform.Find("FrontTrigger").gameObject;
+        _left = transform.Find("LeftTrigger").gameObject;
+        _right = transform.Find("RightTrigger").gameObject;
+        _front = transform.Find("FrontTrigger").gameObject;
     }
 
     // Update is called once per frame
+// ReSharper disable once UnusedMember.Local
     void Update()
     {
 
     }
 
-    bool isLeftClear()
+    public bool IsLeftClear()
     {
-        Vector3 direction = this.transform.TransformDirection(Vector3.left);
-        if (Physics.Raycast(new Ray(left.transform.position, direction), (SCAN_DISTANCE + this.transform.localScale.x)))
+        Vector3 direction = transform.TransformDirection(Vector3.left);
+        if (Physics.Raycast(new Ray(_left.transform.position, direction), (ScanDistance + transform.localScale.x)))
         {
             return false;
         }
-        else return true;
+        return true;
         
     }
-    bool isRightClear()
+    public bool IsRightClear()
     {
-        Vector3 direction = this.transform.TransformDirection(Vector3.right);
-        if (Physics.Raycast(new Ray(right.transform.position, direction), (SCAN_DISTANCE + this.transform.localScale.x)))
-        {
-            return false;
-        }
-        else return true;
+        var direction = transform.TransformDirection(Vector3.right);
+        return !Physics.Raycast(new Ray(_right.transform.position, direction), (ScanDistance + transform.localScale.x));
     }
-    bool isClearOnBothSides()
-    {
-        return (isLeftClear() && isRightClear());
-    }
-    public bool isClearForward()
-    {
-        Vector3 forwardDirection = this.transform.TransformDirection(Vector3.forward);
 
-        if (Physics.Raycast(new Ray(front.transform.position, forwardDirection), (SCAN_DISTANCE)))
+    public bool IsClearOnBothSides()
+    {
+        return (IsLeftClear() && IsRightClear());
+    }
+    public bool IsClearForward()
+    {
+        var forwardDirection = transform.TransformDirection(Vector3.forward);
+
+        if (Physics.Raycast(new Ray(_front.transform.position, forwardDirection), (ScanDistance)))
         {
             return false;
         }
-        else if (Physics.Raycast(new Ray(left.transform.position, forwardDirection), (SCAN_DISTANCE + this.transform.localScale.x)))
+        if (Physics.Raycast(new Ray(_left.transform.position, forwardDirection), (ScanDistance + transform.localScale.x)))
         {
             return false;
         }
-        else if (Physics.Raycast(new Ray(right.transform.position, forwardDirection), (SCAN_DISTANCE + this.transform.localScale.x)))
+        if (Physics.Raycast(new Ray(_right.transform.position, forwardDirection), ScanDistance + transform.localScale.x))
         {
             return false;
         }
-        else
-            return true;
+        return true;
     }
 }

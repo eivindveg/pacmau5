@@ -1,123 +1,160 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Linq;
+using UnityEngine;
 
+// ReSharper disable once CheckNamespace
 public class PacMau5ActorScript : MonoBehaviour
 {
 
     //string previousMovementDirection;
-    bool isPlayer;
-    string lastDirection;
-    string blockedDirection;
-    float[] wallDistance;
-    GameObject playerModel;
-    public const float MOVE_DISTANCE_PER_FRAME = 1.0f / 15.0f;
-    TriggerDollScript triggerDoll;
-    string[] possibleDirections =
+    bool _isPlayer;
+    string _lastDirection;
+    float[] _wallDistance;
+    private int _framesSinceLeftBlocked;
+    private int _framesSinceRightBlocked;
+    GameObject _playerModel;
+    public const float MoveDistancePerFrame = 1.0f / 15.0f;
+    TriggerDollScript _triggerDoll;
+
+    readonly string[] _possibleDirections =
 	{
 		"North",
 		"South",
 		"West",
-		"East",
+		"East"
 	};
 
     // Use this for initialization
+// ReSharper disable once UnusedMember.Local
     void Start()
     {
 
-        playerModel = this.transform.Find("Body").gameObject;
-        triggerDoll = this.transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
+        _playerModel = transform.Find("Body").gameObject;
+        _triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
 
-        if (this.tag == "Player")
-        {
-            this.isPlayer = true;
-        }
-        else
-        {
-            this.isPlayer = false;
-        }
+        _isPlayer = tag == "Player";
     }
 
     // Update is called once per frame
+// ReSharper disable once UnusedMember.Local
     void Update()
     {
-        string direction = "";
-        //		if (isPlayer) {
-        direction = RegisterDirection(isPlayer);
-        if (direction == null)
-        {
-            direction = lastDirection;
-        }
+        var direction = RegisterDirection(_isPlayer) ?? _lastDirection;
         Move(direction);
-        //		} else {
-
-
-        //		}
     }
 
 
-    bool CanMove(string moveDirection)
+    bool CanMove()
     {
-        Vector3 oldPosition = this.transform.position;
-        if (!triggerDoll.isClearForward())
-        {
-            lastDirection = null;
-            return false;
-        }
-        else return true;
+        if (_triggerDoll.IsClearForward()) return true;
+        _lastDirection = null;
+        return false;
     }
 
-    // TODO Make sure collider is a wall, other logic for eatable pills
-    void OnTriggerEnter(Collider other)
+    void TurnLeft()
     {
-        if (other.tag.Contains("Wall"))
+        switch (_lastDirection)
         {
-            Debug.Log("Collision!");
-            blockedDirection = lastDirection;
-        }
-    }
-    void OnTriggerExit(Collider other)
-    {
-        if (other.tag.Contains("Wall"))
-        {
-            blockedDirection = null;
-            Debug.Log("Exit");
+            case "North":
+                _lastDirection = "West";
+                break;
+            case "East":
+                _lastDirection = "North";
+                break;
+            case "South":
+                _lastDirection = "East";
+                break;
+            case "West":
+                _lastDirection = "South";
+                break;
         }
     }
-    void OnCollisionEnter(Collision other)
+
+    void TurnRight()
     {
-        Debug.Log("Collision!");
-        blockedDirection = lastDirection;
+        switch (_lastDirection)
+        {
+            case "North":
+                _lastDirection = "East";
+                break;
+            case "East":
+                _lastDirection = "South";
+                break;
+            case "South":
+                _lastDirection = "West";
+                break;
+            case "West":
+                _lastDirection = "North";
+                break;
+        }
     }
 
     void Move(string direction)
     {
         Rotate(direction);
-        if (CanMove(direction))
+        if (!CanMove()) return;
+        //Debug.Log ("Attempting to move " + direction);
+        var x = transform.position.x;
+        var z = transform.position.z;
+
+        if (!_isPlayer)
         {
-            //Debug.Log ("Attempting to move " + direction);
-            float x = this.transform.position.x;
-            float z = this.transform.position.z;
+            if (Random.Range(0, 100) < 1)
+            {
+                if (Random.Range(0, 2) < 1)
+                {
+                    if (_framesSinceLeftBlocked > 10)
+                    {
+                        TurnLeft();
+                    }
+                }
+                else
+                {
+                    if (_framesSinceRightBlocked > 10)
+                    {
+                        TurnRight();
+                    }
+                }
+            }
+            else
+            {
+                if (_triggerDoll.IsLeftClear())
+                {
+                    _framesSinceLeftBlocked++;
+                }
+                else
+                {
+                    _framesSinceLeftBlocked = 0;
+                }
+                if (_triggerDoll.IsRightClear())
+                {
+                    _framesSinceRightBlocked++;
+                }
+                else
+                {
+                    _framesSinceRightBlocked = 0;
+                } 
+            }
 
-
-            if (direction == "East")
-            {
-                x += MOVE_DISTANCE_PER_FRAME;
-            }
-            else if (direction == "West")
-            {
-                x -= MOVE_DISTANCE_PER_FRAME;
-            }
-            else if (direction == "North")
-            {
-                z += MOVE_DISTANCE_PER_FRAME;
-            }
-            else if (direction == "South")
-            {
-                z -= MOVE_DISTANCE_PER_FRAME;
-            }
-            Vector3 newPosition = new Vector3(x, this.transform.position.y, z);
-            this.transform.position = newPosition;
         }
+
+        if (direction == "East")
+        {
+            x += MoveDistancePerFrame;
+        }
+        else if (direction == "West")
+        {
+            x -= MoveDistancePerFrame;
+        }
+        else if (direction == "North")
+        {
+            z += MoveDistancePerFrame;
+        }
+        else if (direction == "South")
+        {
+            z -= MoveDistancePerFrame;
+        }
+        var newPosition = new Vector3(x, transform.position.y, z);
+        transform.position = newPosition;
     }
 
 
@@ -147,10 +184,9 @@ public class PacMau5ActorScript : MonoBehaviour
             y = 180.0f;
         }
 
-        Quaternion newRotation = Quaternion.identity;
+        var newRotation = Quaternion.identity;
         newRotation.eulerAngles = new Vector3(0, y, 0);
-        //new Quaternion (this.transform.rotation.x, y, this.transform.rotation.z, this.transform.rotation.w);
-        playerModel.transform.rotation = newRotation;
+        _playerModel.transform.rotation = newRotation;
     }
 
     string RegisterDirection(bool isPlayer)
@@ -158,56 +194,36 @@ public class PacMau5ActorScript : MonoBehaviour
 
         if (isPlayer)
         {
-            foreach (string inputValue in possibleDirections)
-            {
-                if (getInput(inputValue))
-                {
-                    return inputValue;
-                }
-            }
-            return null;
+            return _possibleDirections.FirstOrDefault(GetInput);
         }
-        else
+        if (_lastDirection != null) return _lastDirection;
+        var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
+        string direction;
+        switch (dirAsInt)
         {
-            if (lastDirection == null)
-            {
-                int dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
-                string direction;
-                if (dirAsInt == 0)
-                {
-                    direction = "North";
-                }
-                else if (dirAsInt == 1)
-                {
-                    direction = "South";
-                }
-                else if (dirAsInt == 2)
-                {
-                    direction = "East";
-                }
-                else if (dirAsInt == 3)
-                {
-                    direction = "West";
-                }
-                else return null;
-                lastDirection = direction;
-                return direction;
-            }
-            else return lastDirection;
-
+            case 0:
+                direction = "North";
+                break;
+            case 1:
+                direction = "South";
+                break;
+            case 2:
+                direction = "East";
+                break;
+            case 3:
+                direction = "West";
+                break;
+            default:
+                return null;
         }
+        _lastDirection = direction;
+        return direction;
     }
 
-    bool getInput(string inputValue)
+    bool GetInput(string inputValue)
     {
-
-        if (Input.GetButtonDown(inputValue))
-        {
-            lastDirection = inputValue;
-            //			Debug.Log (inputValue);
-            return true;
-        }
-        else
-            return false;
+        if (!Input.GetButtonDown(inputValue)) return false;
+        _lastDirection = inputValue;
+        return true;
     }
 }
