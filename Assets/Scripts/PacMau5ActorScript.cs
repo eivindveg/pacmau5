@@ -4,226 +4,235 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 public class PacMau5ActorScript : MonoBehaviour
 {
-
-    //string previousMovementDirection;
-    bool _isPlayer;
-    string _lastDirection;
-    float[] _wallDistance;
-    private int _framesSinceLeftBlocked;
-    private int _framesSinceRightBlocked;
-    GameObject _playerModel;
     public const float MoveDistancePerFrame = 1.0f / 15.0f;
-    TriggerDollScript _triggerDoll;
 
-    readonly string[] _possibleDirections =
-	{
-		"North",
-		"South",
-		"West",
-		"East"
-	};
+    private readonly string[] possibleDirections =
+    {
+        "North",
+        "South",
+        "West",
+        "East"
+    };
+
+    private bool isPlayer;
+    private string direction;
+    private float[] wallDistance;
+    private int framesSinceLeftBlocked;
+    private int framesSinceRightBlocked;
+    private GameObject playerModel;
+
+    private TriggerDollScript triggerDoll;
 
     // Use this for initialization
 // ReSharper disable once UnusedMember.Local
-    void Start()
+    private void Start()
     {
+        this.playerModel = transform.Find("Body").gameObject;
+        this.triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
 
-        _playerModel = transform.Find("Body").gameObject;
-        _triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
-
-        _isPlayer = tag == "Player";
+        this.isPlayer = this.tag == "Player";
     }
 
     // Update is called once per frame
 // ReSharper disable once UnusedMember.Local
-    void Update()
+    private void Update()
     {
-        var direction = RegisterDirection(_isPlayer) ?? _lastDirection;
-        Move(direction);
+        var localDirection = this.RegisterDirection() ?? this.direction;
+        this.Move(localDirection);
     }
 
-
-    bool CanMove()
+    private bool CanMove()
     {
-        if (_triggerDoll.IsClearForward()) return true;
-        _lastDirection = null;
+        if (this.triggerDoll.IsClearForward())
+        {
+            return true;
+        }
+
+        this.direction = null;
         return false;
     }
 
-    void TurnLeft()
+    private void TurnLeft()
     {
-        switch (_lastDirection)
+        switch (this.direction)
         {
             case "North":
-                _lastDirection = "West";
+                this.direction = "West";
                 break;
             case "East":
-                _lastDirection = "North";
+                this.direction = "North";
                 break;
             case "South":
-                _lastDirection = "East";
+                this.direction = "East";
                 break;
             case "West":
-                _lastDirection = "South";
+                this.direction = "South";
                 break;
         }
     }
 
-    void TurnRight()
+    private void TurnRight()
     {
-        switch (_lastDirection)
+        switch (this.direction)
         {
             case "North":
-                _lastDirection = "East";
+                this.direction = "East";
                 break;
             case "East":
-                _lastDirection = "South";
+                this.direction = "South";
                 break;
             case "South":
-                _lastDirection = "West";
+                this.direction = "West";
                 break;
             case "West":
-                _lastDirection = "North";
+                this.direction = "North";
                 break;
         }
     }
 
-    void Move(string direction)
-    {
-        Rotate(direction);
-        if (!CanMove()) return;
-        //Debug.Log ("Attempting to move " + direction);
+    private void Move(string localDirection)
+    {   
+        if (!this.CanMove())
+        {
+            return;
+        }
+
         var x = transform.position.x;
         var z = transform.position.z;
 
-        if (!_isPlayer)
+        if (!this.isPlayer)
         {
             if (Random.Range(0, 100) < 1)
             {
                 if (Random.Range(0, 2) < 1)
                 {
-                    if (_framesSinceLeftBlocked > 10)
+                    if (this.framesSinceLeftBlocked > 10)
                     {
-                        TurnLeft();
+                        this.TurnLeft();
                     }
                 }
                 else
                 {
-                    if (_framesSinceRightBlocked > 10)
+                    if (this.framesSinceRightBlocked > 10)
                     {
-                        TurnRight();
+                        this.TurnRight();
                     }
                 }
             }
             else
             {
-                if (_triggerDoll.IsLeftClear())
+                if (this.triggerDoll.IsLeftClear())
                 {
-                    _framesSinceLeftBlocked++;
+                    this.framesSinceLeftBlocked++;
                 }
                 else
                 {
-                    _framesSinceLeftBlocked = 0;
+                    this.framesSinceLeftBlocked = 0;
                 }
-                if (_triggerDoll.IsRightClear())
+
+                if (this.triggerDoll.IsRightClear())
                 {
-                    _framesSinceRightBlocked++;
+                    this.framesSinceRightBlocked++;
                 }
                 else
                 {
-                    _framesSinceRightBlocked = 0;
+                    this.framesSinceRightBlocked = 0;
                 } 
             }
-
         }
 
-        if (direction == "East")
+        switch (localDirection)
         {
-            x += MoveDistancePerFrame;
+            case "East":
+                x += MoveDistancePerFrame;
+                break;
+            case "West":
+                x -= MoveDistancePerFrame;
+                break;
+            case "North":
+                z += MoveDistancePerFrame;
+                break;
+            case "South":
+                z -= MoveDistancePerFrame;
+                break;
         }
-        else if (direction == "West")
-        {
-            x -= MoveDistancePerFrame;
-        }
-        else if (direction == "North")
-        {
-            z += MoveDistancePerFrame;
-        }
-        else if (direction == "South")
-        {
-            z -= MoveDistancePerFrame;
-        }
+
         var newPosition = new Vector3(x, transform.position.y, z);
         transform.position = newPosition;
     }
 
-
-    void Rotate(string direction)
+    private void Rotate(string localDirection)
     {
-
-        //GameObject rotatableObject = GameObject.Find (this.name + "/Sphere");
-
         float y = 0;
 
-        if (direction == "East")
+        switch (localDirection)
         {
-            //	Debug.Log ("Pointing player East");
-            y = 90.0f;
-        }
-        else if (direction == "West")
-        {
-            //	Debug.Log ("Pointing player West");
-            y = 270.0f;
-        }
-        else if (direction == "North")
-        {
-            y = 0.0f;
-        }
-        else if (direction == "South")
-        {
-            y = 180.0f;
+            case "East":
+                y = 90.0f;
+                break;
+            case "West":
+                y = 270.0f;
+                break;
+            case "North":
+                y = 0.0f;
+                break;
+            case "South":
+                y = 180.0f;
+                break;
         }
 
         var newRotation = Quaternion.identity;
         newRotation.eulerAngles = new Vector3(0, y, 0);
-        _playerModel.transform.rotation = newRotation;
+        this.playerModel.transform.rotation = newRotation;
     }
 
-    string RegisterDirection(bool isPlayer)
+    private string RegisterDirection()
     {
-
-        if (isPlayer)
+        if (this.isPlayer)
         {
-            return _possibleDirections.FirstOrDefault(GetInput);
+            return this.possibleDirections.FirstOrDefault(this.GetInput);
         }
-        if (_lastDirection != null) return _lastDirection;
+
+        if (this.direction != null)
+        {
+            this.Rotate(this.direction);
+            return this.direction;
+        }
+
         var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
-        string direction;
+        string localDirection;
         switch (dirAsInt)
         {
             case 0:
-                direction = "North";
+                localDirection = "North";
                 break;
             case 1:
-                direction = "South";
+                localDirection = "South";
                 break;
             case 2:
-                direction = "East";
+                localDirection = "East";
                 break;
             case 3:
-                direction = "West";
+                localDirection = "West";
                 break;
             default:
                 return null;
         }
-        _lastDirection = direction;
-        return direction;
+
+        this.direction = localDirection;
+        this.Rotate(this.direction);
+        return localDirection;
     }
 
-    bool GetInput(string inputValue)
+    private bool GetInput(string inputValue)
     {
-        if (!Input.GetButtonDown(inputValue)) return false;
-        _lastDirection = inputValue;
+        if (!Input.GetButtonDown(inputValue))
+        {
+            return false;
+        }
+
+        this.Rotate(inputValue);
+        this.direction = inputValue;
         return true;
     }
 }
