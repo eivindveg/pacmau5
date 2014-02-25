@@ -11,7 +11,6 @@ public class TriggerDollScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         left = this.transform.Find("LeftTrigger").gameObject;
         right = this.transform.Find("RightTrigger").gameObject;
         front = this.transform.Find("FrontTrigger").gameObject;
@@ -25,11 +24,22 @@ public class TriggerDollScript : MonoBehaviour
 
     bool isLeftClear()
     {
-        return true;
+        Vector3 direction = this.transform.TransformDirection(Vector3.left);
+        if (Physics.Raycast(new Ray(left.transform.position, direction), (SCAN_DISTANCE + this.transform.localScale.x)))
+        {
+            return false;
+        }
+        else return true;
+        
     }
     bool isRightClear()
     {
-        return true;
+        Vector3 direction = this.transform.TransformDirection(Vector3.right);
+        if (Physics.Raycast(new Ray(right.transform.position, direction), (SCAN_DISTANCE + this.transform.localScale.x)))
+        {
+            return false;
+        }
+        else return true;
     }
     bool isClearOnBothSides()
     {
