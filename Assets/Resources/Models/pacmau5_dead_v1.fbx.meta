@@ -1,34 +1,36 @@
 fileFormatVersion: 2
-guid: 2ff0ed264fcae1a4cad2662fed860674
+guid: 3ff68702df355e64995179403babf77c
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: Capsule
-    100002: //RootNode
-    100004: Joint
-    100006: Joint.1
-    100008: Joint.1.2
-    100010: Joint.2
-    100012: Joint.2.2
-    100014: Joint.2.3
-    100016: Null
-    100018: Root
-    100020: Root.2
-    400000: Capsule
-    400002: //RootNode
-    400004: Joint
-    400006: Joint.1
-    400008: Joint.1.2
-    400010: Joint.2
-    400012: Joint.2.2
-    400014: Joint.2.3
-    400016: Null
-    400018: Root
-    400020: Root.2
-    4300000: Capsule
-    7400000: C4D Animation Take
+    100000: Cube
+    100002: Cube.1
+    100004: Cube.2
+    100006: Cube.3
+    100008: Pacmau5.1
+    100010: //RootNode
+    400000: Cube
+    400002: Cube.1
+    400004: Cube.2
+    400006: Cube.3
+    400008: Pacmau5.1
+    400010: //RootNode
+    2300000: Cube
+    2300002: Cube.1
+    2300004: Cube.2
+    2300006: Cube.3
+    2300008: Pacmau5.1
+    3300000: Cube
+    3300002: Cube.1
+    3300004: Cube.2
+    3300006: Cube.3
+    3300008: Pacmau5.1
+    4300000: Cube.1
+    4300002: Cube
+    4300004: Cube.2
+    4300006: Cube.3
+    4300008: Pacmau5.1
     9500000: //RootNode
-    13700000: Capsule
   materials:
     importMaterials: 1
     materialName: 0
