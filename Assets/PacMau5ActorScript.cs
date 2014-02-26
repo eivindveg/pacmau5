@@ -111,6 +111,40 @@ public class PacMau5ActorScript : MonoBehaviour
         return false;
     }
 
+    private bool IsLeft(string localDirection)
+    {
+        switch (this.direction)
+        {
+            case "North":
+                return localDirection == "West";
+            case "East":
+                return localDirection == "North";
+            case "South":
+                return localDirection == "East";
+            case "West":
+                return localDirection == "South";
+            default:
+                return false;
+        }
+    }
+
+    private bool IsRight(string localDirection)
+    {
+        switch (this.direction)
+        {
+            case "North":
+                return localDirection == "East";
+            case "East":
+                return localDirection == "South";
+            case "South":
+                return localDirection == "West";
+            case "West":
+                return localDirection == "North";
+            default:
+                return false;
+        }
+    }
+
     private void TurnLeft()
     {
         switch (this.direction)
@@ -247,9 +281,27 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private string RegisterDirection()
     {
+        string localDirection;
         if (this.isPlayer)
         {
-            return this.possibleDirections.FirstOrDefault(this.GetInput);
+            localDirection = this.possibleDirections.FirstOrDefault(this.GetInput);
+
+            if (this.IsLeft(localDirection))
+            {
+                if (this.triggerDoll.IsLeftClear())
+                {
+                    return localDirection;
+                }
+            }
+            else if (this.IsRight(localDirection))
+            {
+                if (this.triggerDoll.IsRightClear())
+                {
+                    return localDirection;
+                }
+            }
+            
+            return localDirection;
         }
 
         if (this.direction != null)
@@ -259,7 +311,6 @@ public class PacMau5ActorScript : MonoBehaviour
         }
 
         var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
-        string localDirection;
         switch (dirAsInt)
         {
             case 0:
