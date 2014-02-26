@@ -7,7 +7,7 @@ public class MenuScript : MonoBehaviour {
 	float speed=0.01f;
 	bool stop = false;
 	void OnGUI () {
-		if(logo.showmenu == true && !stop){
+		if(Logo.showmenu == true && !stop){
 			a-=speed;
 			Camera.main.backgroundColor = new Color(a,a,a);
 			RenderSettings.ambientLight = new Color(a,a,a);
