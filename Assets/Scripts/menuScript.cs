@@ -30,7 +30,7 @@ public class menuScript : MonoBehaviour {
 								Application.LoadLevel (1);
 				
 						}
-						if (GUI.Button (new Rect (Screen.width / 2 + 50, Screen.height / 2 + 120, 120, 30), "Quit Game")) {
+						if (GUI.Button (new Rect (Screen.width / 2 + 50, Screen.height / 2 + 120, 120, 30), "Quit")) {
 								Application.Quit ();
 						}
 				}
