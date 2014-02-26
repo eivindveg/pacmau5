@@ -1,19 +1,18 @@
 ﻿using UnityEngine;
 
-// ReSharper disable once CheckNamespace
+[RequireComponent(typeof(Animator))]
+
+
 public class Anim : MonoBehaviour {
 	public Animator anim;
+	public GameObject obj;
+	static int runState = Animator.StringToHash("isMoving");
 	
 	void Update () {
-		//Fix this.
-
-		if(this.transform.rigidbody.velocity.magnitude > 0.2){
-			anim.SetBool("isMoving",true);
+		if(obj.rigidbody.IsSleeping()) {
+			anim.SetBool(runState,true);
+		}else{
+			anim.SetBool(runState,false);
 		}
-        else
-        {
-			anim.SetBool("isMoving",false);
-		}
-	
 	}
 }
