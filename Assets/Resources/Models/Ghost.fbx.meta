@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Resources/Models/Ghost.fbx.meta
 guid: b2ded1c1d8c59be4585cc160bb9f63c3
+=======
+guid: 8fbb0672bf790bc4195d72da8f20fa21
+>>>>>>> origin/haakon:Assets/Resources/Models/Ghost.fbx.meta
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
