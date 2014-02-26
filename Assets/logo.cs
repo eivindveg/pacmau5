@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class logo : MonoBehaviour {
+public class Logo : MonoBehaviour {
 	public float max = 150f;
 	public float count = 0f;
 	public bool stop= false;

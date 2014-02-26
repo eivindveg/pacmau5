@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class menuScript : MonoBehaviour {
+public class MenuScript : MonoBehaviour {
 	float a = 1f;
 	bool last = false;
 	float speed=0.01f;
