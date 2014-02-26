@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class gameOverButtons : MonoBehaviour {
+public class GameOverButtons : MonoBehaviour {
 
 
 	void OnGUI () {
