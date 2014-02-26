@@ -53,7 +53,7 @@ public class PacMau5ActorScript : MonoBehaviour
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
-            this.mau5Model = this.playerModel.transform.Find("pacmau5_v3").gameObject;
+            this.mau5Model = this.playerModel.transform.Find("pacmau5_v5").gameObject;
         }
 
         this.triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
