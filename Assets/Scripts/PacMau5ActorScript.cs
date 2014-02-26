@@ -7,6 +7,9 @@ public class PacMau5ActorScript : MonoBehaviour
 {
     public const float MoveDistancePerFrame = 1.0f / 15.0f;
 
+    private static readonly Color NormalColor = new Color(255.0f, 0.0f, 0.0f);
+    private static readonly Color SuperColor = new Color(0.0f, 0.0f, 255.0f);
+
     private readonly string[] possibleDirections =
     {
         "North",
@@ -16,6 +19,7 @@ public class PacMau5ActorScript : MonoBehaviour
     };
 
     private bool isPlayer;
+    private bool ghostKiller;
     private string direction;
     private float[] wallDistance;
     private int framesSinceLeftBlocked;
@@ -72,7 +76,19 @@ public class PacMau5ActorScript : MonoBehaviour
             if (this.godModeFrames >= 1)
             {
                 this.godModeFrames--;
-                this.mau5Model.renderer.material.color = new Color(0.0f, 0.0f, 255.0f);
+                if (!this.ghostKiller)
+                {
+                    this.ghostKiller = true;
+                    this.mau5Model.renderer.material.color = SuperColor;
+                }
+            }
+            else
+            {
+                if (this.ghostKiller)
+                {
+                    this.ghostKiller = false;
+                    this.mau5Model.renderer.material.color = NormalColor;
+                }
             }
         }
 
