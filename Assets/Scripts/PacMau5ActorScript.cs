@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+
 using UnityEngine;
 
 // ReSharper disable once CheckNamespace
@@ -19,15 +20,39 @@ public class PacMau5ActorScript : MonoBehaviour
     private float[] wallDistance;
     private int framesSinceLeftBlocked;
     private int framesSinceRightBlocked;
+    private int ammunition;
+    private int godModeFrames;
     private GameObject playerModel;
 
+    private GameObject mau5Model;
+
     private TriggerDollScript triggerDoll;
+
+    public PacMau5ActorScript()
+    {
+        this.ammunition = 0;
+    }
+
+    public void AddAmmo(int amnt)
+    {
+        this.ammunition++;
+    }
+
+    public void TriggerGodMode(int duration)
+    {
+        this.godModeFrames = duration;
+    }
 
     // Use this for initialization
 // ReSharper disable once UnusedMember.Local
     private void Start()
     {
         this.playerModel = transform.Find("Body").gameObject;
+        if (this.tag == "Player")
+        {
+            this.mau5Model = this.playerModel.transform.Find("pacmau5_v3").gameObject;
+        }
+
         this.triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
 
         this.isPlayer = this.tag == "Player";
@@ -37,6 +62,20 @@ public class PacMau5ActorScript : MonoBehaviour
 // ReSharper disable once UnusedMember.Local
     private void Update()
     {
+        if (this.isPlayer)
+        {
+            if (!Input.GetButtonDown("Shoot"))
+            {
+                this.Shoot();
+            }
+
+            if (this.godModeFrames >= 1)
+            {
+                this.godModeFrames--;
+                this.mau5Model.renderer.material.color = new Color(0.0f, 0.0f, 255.0f);
+            }
+        }
+
         var localDirection = this.RegisterDirection() ?? this.direction;
         this.Move(localDirection);
     }
@@ -234,5 +273,15 @@ public class PacMau5ActorScript : MonoBehaviour
         this.Rotate(inputValue);
         this.direction = inputValue;
         return true;
+    }
+
+    private void Shoot()
+    {
+        if (this.ammunition >= 1)
+        {
+            this.ammunition--;
+
+            // INSTANTIATE BULLET OBJECT
+        }
     }
 }
