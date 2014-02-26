@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Håkon\menuScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\menuScript.cs">
     <Files>
-      <File FileName="Assets\Håkon\logo.cs" Line="17" Column="3" />
-      <File FileName="Assets\Håkon\menuScript.cs" Line="14" Column="4" />
+      <File FileName="Assets\Scripts\logo.cs" Line="35" Column="21" />
+      <File FileName="Assets\Scripts\menuScript.cs" Line="33" Column="96" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
