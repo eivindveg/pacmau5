@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/gameOverButtons.cs.meta
 guid: 0caf11e897be3ba46ae5b8dfef67159c
+=======
+guid: abedb431ebdfee34bb4b9b326786eff9
+>>>>>>> origin/mats-changes:Assets/Scripts/gameOverButtons.cs.meta
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []

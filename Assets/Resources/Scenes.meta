@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Resources/Scenes.meta
 guid: 6011492f51d641c47b157c854738f62e
+=======
+<<<<<<< HEAD
+guid: 6864cb37d7a38974c8168ffa2ac97cab
+=======
+guid: 5b9eb9c4f4a5154408d2fd09a4940fad
+>>>>>>> origin/haakon-chang
+>>>>>>> origin/mats-changes:Assets/Scenes.meta
 folderAsset: yes
 DefaultImporter:
   userData: 

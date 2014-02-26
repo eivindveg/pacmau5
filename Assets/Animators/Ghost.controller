@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: playerController
+  m_Name: Ghost
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: isMoving
@@ -16,7 +16,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 3
-    m_Name: Player
+    m_Name: Ghost
     m_StateMachine: {fileID: 110700000}
     m_Mask: {fileID: 0}
     m_BlendingMode: 0
@@ -32,9 +32,9 @@ Transition:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110234231}
-  m_TransitionDuration: .430000007
+  m_SrcState: {fileID: 110280755}
+  m_DstState: {fileID: 110200000}
+  m_TransitionDuration: .5
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 2
@@ -44,21 +44,21 @@ Transition:
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
---- !u!1101 &110135292
+--- !u!1101 &110190228
 Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110234231}
-  m_DstState: {fileID: 110200000}
-  m_TransitionDuration: .200000003
+  m_SrcState: {fileID: 110200000}
+  m_DstState: {fileID: 110280755}
+  m_TransitionDuration: .75
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
-    m_ExitTime: .430000007
+    m_ExitTime: .25
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -67,28 +67,28 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Idle
-  m_Speed: .300000012
+  m_Name: movement
+  m_Speed: .5
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400002, guid: 2217cdde67265eb4480ada8d8fa0c28a, type: 3}
+  - {fileID: 7400000, guid: 0004dc20eb3e0eb458b32b52cb6a2011, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 36, y: 72, z: 0}
+  m_Position: {x: 36, y: 168, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110234231
+--- !u!1102 &110280755
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Moving
-  m_Speed: .430000007
+  m_Name: Idle
+  m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 2217cdde67265eb4480ada8d8fa0c28a, type: 3}
+  - {fileID: 0}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 36, y: 168, z: 0}
+  m_Position: {x: 36, y: 72, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -98,22 +98,22 @@ StateMachine:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Player
-  m_DefaultState: {fileID: 110200000}
+  m_Name: Ghost
+  m_DefaultState: {fileID: 110280755}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110234231}
+  - {fileID: 110280755}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110200000}
+      first: {fileID: 110280755}
       second:
       - {fileID: 110100000}
     data:
-      first: {fileID: 110234231}
+      first: {fileID: 110200000}
       second:
-      - {fileID: 110135292}
+      - {fileID: 110190228}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
