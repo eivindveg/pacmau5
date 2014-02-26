@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5b7df1ae1a1297c41bd60fe7ae5d5499
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: Boole.1
     100002: eye
@@ -61,12 +61,72 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    optimizeGameObjects: 0
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
-    clipAnimations: []
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pacmau5
+        weight: 1
+      - path: Pacmau5/Boole.1
+        weight: 1
+      - path: Pacmau5/Boole.1/Null.2
+        weight: 1
+      - path: Pacmau5/Null
+        weight: 1
+      - path: Pacmau5/Null/eye
+        weight: 1
+      - path: Pacmau5/Null/eye.1
+        weight: 1
+      - path: Pacmau5/Null/Left Ear
+        weight: 1
+      - path: Pacmau5/Null/Left Ear/Sphere.1
+        weight: 1
+      - path: Pacmau5/Null/Right Ear
+        weight: 1
+      - path: Pacmau5/Null/Right Ear/Sphere
+        weight: 1
+      - path: Pacmau5/whitemouth
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Joint
+        weight: 1
+      - path: Root/Joint/Joint.1
+        weight: 1
+      - path: Root/Joint/Joint.1.2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -93,7 +153,6 @@ ModelImporter:
   humanDescription:
     human: []
     skeleton: []
-    handles: []
     armTwist: .5
     foreArmTwist: .5
     upperLegTwist: .5
@@ -103,6 +162,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  additionalBone: 1
   animationType: 2
+  additionalBone: 1
   userData: 

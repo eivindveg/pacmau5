@@ -34,10 +34,10 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110200000}
   m_DstState: {fileID: 110234231}
-  m_TransitionDuration: .100000001
+  m_TransitionDuration: .430000007
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
     m_ExitTime: .899999976
@@ -52,13 +52,13 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110234231}
   m_DstState: {fileID: 110200000}
-  m_TransitionDuration: 1.24999988
+  m_TransitionDuration: .200000003
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
-    m_ExitTime: 0
+    m_ExitTime: .430000007
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -68,7 +68,7 @@ State:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Idle
-  m_Speed: 1
+  m_Speed: 10
   m_CycleOffset: 0
   m_Motions:
   - {fileID: 0}
@@ -83,7 +83,7 @@ State:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Moving
-  m_Speed: 1
+  m_Speed: .430000007
   m_CycleOffset: 0
   m_Motions:
   - {fileID: 7400000, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
@@ -107,13 +107,13 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110234231}
-      second:
-      - {fileID: 110135292}
-    data:
       first: {fileID: 110200000}
       second:
       - {fileID: 110100000}
+    data:
+      first: {fileID: 110234231}
+      second:
+      - {fileID: 110135292}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
