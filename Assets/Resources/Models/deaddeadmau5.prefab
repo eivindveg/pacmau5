@@ -326,16 +326,16 @@ ParticleAnimator:
   Does Animate Color?: 1
   colorAnimation[0]:
     serializedVersion: 2
-    rgba: 184549375
+    rgba: 4294967295
   colorAnimation[1]:
     serializedVersion: 2
-    rgba: 3036676095
+    rgba: 4294967295
   colorAnimation[2]:
     serializedVersion: 2
     rgba: 4294967295
   colorAnimation[3]:
     serializedVersion: 2
-    rgba: 3841982463
+    rgba: 4294967295
   colorAnimation[4]:
     serializedVersion: 2
     rgba: 0
@@ -386,20 +386,20 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: .5
-  maxSize: .699999988
+  minSize: .540000021
+  maxSize: .930000007
   minEnergy: 25
   maxEnergy: 50
   minEmission: .200000003
-  maxEmission: .200000003
+  maxEmission: .680000007
   worldVelocity: {x: 0, y: 0, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
   rndVelocity: {x: 0, y: 0, z: 0}
   emitterVelocityScale: .0500000007
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
-  rndAngularVelocity: 0
-  rndRotation: 1
+  rndAngularVelocity: 2
+  rndRotation: 0
   Simulate in Worldspace?: 0
   m_OneShot: 0
   m_Ellipsoid: {x: .5, y: 0, z: .5}
@@ -417,8 +417,8 @@ EllipsoidParticleEmitter:
   maxSize: .100000001
   minEnergy: 5
   maxEnergy: 5
-  minEmission: .300000012
-  maxEmission: 2
+  minEmission: .800000012
+  maxEmission: 6
   worldVelocity: {x: .600000024, y: 3, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
   rndVelocity: {x: 0, y: 0, z: 0}
@@ -585,7 +585,7 @@ ParticleRenderer:
   m_StretchParticles: 4
   m_LengthScale: 2
   m_VelocityScale: 0
-  m_MaxParticleSize: 2
+  m_MaxParticleSize: .709999979
   UV Animation:
     x Tile: 1
     y Tile: 1
