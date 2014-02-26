@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9ad00bc4e9ceb2489286a1a35844a01
+guid: 5b7df1ae1a1297c41bd60fe7ae5d5499
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -51,11 +51,6 @@ ModelImporter:
     4300006: eye
     4300008: whitemouth
     4300010: Boole.1
-    6400000: eye
-    6400002: eye.1
-    6400004: Sphere
-    6400006: Sphere.1
-    6400008: whitemouth
     7400000: C4D Animation Take
     9500000: //RootNode
     13700000: Boole.1
@@ -73,13 +68,71 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Pacmau5
+        weight: 1
+      - path: Pacmau5/Boole.1
+        weight: 1
+      - path: Pacmau5/Boole.1/Null.2
+        weight: 1
+      - path: Pacmau5/Null
+        weight: 1
+      - path: Pacmau5/Null/eye
+        weight: 1
+      - path: Pacmau5/Null/eye.1
+        weight: 1
+      - path: Pacmau5/Null/Left Ear
+        weight: 1
+      - path: Pacmau5/Null/Left Ear/Sphere.1
+        weight: 1
+      - path: Pacmau5/Null/Right Ear
+        weight: 1
+      - path: Pacmau5/Null/Right Ear/Sphere
+        weight: 1
+      - path: Pacmau5/whitemouth
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Joint
+        weight: 1
+      - path: Root/Joint/Joint.1
+        weight: 1
+      - path: Root/Joint/Joint.1.2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: .00999999978
-    meshCompression: 3
-    addColliders: 1
+    meshCompression: 0
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -110,5 +163,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  additionalBone: 0
+  additionalBone: 1
   userData: 

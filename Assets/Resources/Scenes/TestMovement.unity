@@ -74,6 +74,7 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!1 &48837536
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,72 +319,104 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+--- !u!1 &87477449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 156842560}
+  - 4: {fileID: 87477450}
   m_Layer: 0
-  m_Name: Pacmau5
+  m_Name: Left Ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &156842560
+--- !u!4 &87477450
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 156842559}
   m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: .0269483328, y: .430472851, z: -7.455521e-08}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_PrefabParentObject: {fileID: 400022, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 87477449}
+  m_LocalRotation: {x: -4.42471483e-16, y: 1.17303753e-16, z: .483043641, w: .875596285}
+  m_LocalPosition: {x: .336707681, y: .0556984134, z: -.600774646}
+  m_LocalScale: {x: 3.84500909, y: 1.65711951, z: 1}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Children:
-  - {fileID: 287881845}
-  - {fileID: 1840372609}
-  - {fileID: 1472863403}
-  m_Father: {fileID: 495177118}
---- !u!1 &287881844
+  - {fileID: 1456382826}
+  m_Father: {fileID: 397173992}
+--- !u!1 &299022051
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100018, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 100022, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 287881845}
-  - 137: {fileID: 287881846}
+  - 4: {fileID: 299022052}
+  - 33: {fileID: 299022054}
+  - 23: {fileID: 299022053}
   m_Layer: 0
-  m_Name: Boole.1
+  m_Name: whitemouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &287881845
+--- !u!4 &299022052
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400018, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 287881844}
+=======
+  m_PrefabParentObject: {fileID: 400036, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 299022051}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -.0269483328, y: -.430472851, z: 7.455521e-08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 646544122}
-  m_Father: {fileID: 156842560}
---- !u!137 &287881846
-SkinnedMeshRenderer:
+  m_LocalScale: {x: .980000019, y: .980000019, z: .980000019}
+  m_Children: []
+  m_Father: {fileID: 1454021179}
+--- !u!23 &299022053
+Renderer:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 13700000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 287881844}
+=======
+  m_PrefabParentObject: {fileID: 2300008, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 299022051}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 8659424a149e6a244addacbfe6e23a77, type: 2}
+  - {fileID: 2100000, guid: d51815c8710476e4d900b138c6f336a2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -392,6 +425,7 @@ SkinnedMeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -460,11 +494,32 @@ GameObject:
   - 23: {fileID: 332594464}
   m_Layer: 2
   m_Name: RightTrigger
+=======
+--- !u!33 &299022054
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 299022051}
+  m_Mesh: {fileID: 4300008, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+--- !u!1 &397173991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 397173992}
+  m_Layer: 0
+  m_Name: Null
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!4 &332594463
 Transform:
   m_ObjectHideFlags: 0
@@ -478,6 +533,51 @@ Transform:
   m_Father: {fileID: 1878296035}
 --- !u!23 &332594464
 Renderer:
+=======
+--- !u!4 &397173992
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 397173991}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -.138999104, y: .258842617, z: -1.05845345e-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1319528116}
+  - {fileID: 725934624}
+  - {fileID: 87477450}
+  - {fileID: 1076718351}
+  m_Father: {fileID: 1454021179}
+--- !u!1 &404653486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 404653487}
+  m_Layer: 0
+  m_Name: Null.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404653487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 404653486}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1842365836}
+--- !u!1 &416288097
+GameObject:
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300006, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
@@ -1177,6 +1277,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.5, z: 5.2131567}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!1 &646544121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1371,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
   m_PrefabInternal: {fileID: 1029116800}
+=======
+--- !u!1 &496139667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 705087399}
@@ -1298,8 +1406,13 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1029116800}
   m_GameObject: {fileID: 705087398}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 496139667}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1320,10 +1433,30 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1029116800}
   m_GameObject: {fileID: 705087398}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &723605583
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 496139667}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &496139670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 496139667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1537933066}
+  - {fileID: 1265691592}
+  m_Father: {fileID: 1166047712}
+--- !u!1 &535093479
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1392,11 +1525,45 @@ Transform:
   m_LocalScale: {x: 1, y: 1.5, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!1 &750553765
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100004, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
   m_PrefabInternal: {fileID: 1154802313}
+=======
+--- !u!1 &573661332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 573661333}
+  m_Layer: 0
+  m_Name: Joint.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &573661333
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 573661332}
+  m_LocalRotation: {x: -2.77555756e-17, y: 6.16297582e-33, z: -3.08148791e-33, w: 1}
+  m_LocalPosition: {x: 2.01678783e-16, y: -1.42108544e-16, z: -1.23505449}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1710752115}
+--- !u!1 &599392453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 750553769}
@@ -1410,13 +1577,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!23 &750553766
+=======
+--- !u!4 &599392454
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 599392453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: .5}
+  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
+  m_Children: []
+  m_Father: {fileID: 1265691592}
+--- !u!23 &599392455
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300002, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 750553765}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 599392453}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1437,8 +1624,13 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500002, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 750553765}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 599392453}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
@@ -1450,6 +1642,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300002, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 750553765}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -1478,10 +1671,30 @@ GameObject:
   m_Layer: 2
   m_Name: FrontTrigger
   m_TagString: Untagged
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 599392453}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &646287080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 646287084}
+  - 33: {fileID: 646287083}
+  - 65: {fileID: 646287082}
+  - 23: {fileID: 646287081}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Wall
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!4 &851708901
 Transform:
   m_ObjectHideFlags: 0
@@ -1494,6 +1707,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 908467485}
 --- !u!23 &851708902
+=======
+--- !u!23 &646287081
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300002, guid: f98de19bfda3ae0468ac279606a5d022,
@@ -1536,6 +1752,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1628640619}
   m_GameObject: {fileID: 851708900}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!1 &855632789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,6 +1780,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &908467484
+=======
+--- !u!4 &646287084
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 646287080}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 7.14505339, y: .699999988, z: 4.16897202}
+  m_LocalScale: {x: 1, y: 1.5, z: 5.2131567}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &672918674
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
@@ -1667,6 +1898,7 @@ MeshFilter:
 --- !u!1001 &958018248
 Prefab:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -1704,11 +1936,83 @@ Prefab:
   m_RootGameObject: {fileID: 855632789}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723605583}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: .699999988, z: 10}
+  m_LocalScale: {x: 1, y: 1.5, z: 20}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &725934623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 725934624}
+  - 33: {fileID: 725934626}
+  - 23: {fileID: 725934625}
+  m_Layer: 0
+  m_Name: eye.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &725934624
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 725934623}
+  m_LocalRotation: {x: .42469731, y: -.0290655792, z: .0327231884, w: .904276848}
+  m_LocalPosition: {x: .0317607708, y: -.0250055064, z: -.587738872}
+  m_LocalScale: {x: .297081441, y: .300591916, z: .151511505}
+  m_Children: []
+  m_Father: {fileID: 397173992}
+--- !u!23 &725934625
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 725934623}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: d51815c8710476e4d900b138c6f336a2, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &725934626
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 725934623}
+  m_Mesh: {fileID: 4300004, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 --- !u!1 &981067694
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 981067695}
@@ -1727,7 +2031,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 981067694}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: 0, y: 15, z: 0}
@@ -1739,7 +2047,11 @@ AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 981067694}
   m_Enabled: 1
 --- !u!124 &981067697
@@ -1747,7 +2059,11 @@ Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 12400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 981067694}
   m_Enabled: 1
 --- !u!92 &981067698
@@ -1755,7 +2071,11 @@ Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9200000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 981067694}
   m_Enabled: 1
 --- !u!20 &981067699
@@ -1763,7 +2083,11 @@ Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2000000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 981067694}
   m_Enabled: 1
   serializedVersion: 2
@@ -1788,14 +2112,19 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 1
---- !u!1 &1014601578
+--- !u!1 &1076718350
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100028, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 100026, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1014601579}
+  - 4: {fileID: 1076718351}
   m_Layer: 0
   m_Name: Right Ear
   m_TagString: Untagged
@@ -1803,36 +2132,88 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1014601579
+--- !u!4 &1076718351
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400028, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1014601578}
+=======
+  m_PrefabParentObject: {fileID: 400020, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1076718350}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: 2.00497278e-16, y: -1.10608692e-16, z: .48304221, w: .87559706}
   m_LocalPosition: {x: .336705089, y: .0556952469, z: .600780606}
   m_LocalScale: {x: 3.8450036, y: 1.65713382, z: 1}
   m_Children:
-  - {fileID: 2050073110}
-  m_Father: {fileID: 1840372609}
---- !u!1 &1025425613
+  - {fileID: 2098032410}
+  m_Father: {fileID: 397173992}
+--- !u!1001 &1147038423
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.52128029
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.20251679
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_RootGameObject: {fileID: 1166047711}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1154263110
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100030, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 100016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1025425614}
+  - 4: {fileID: 1154263111}
   m_Layer: 0
-  m_Name: Root
+  m_Name: Joint.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1025425614
+--- !u!4 &1154263111
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400030, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1025425613}
@@ -1887,22 +2268,37 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100032, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 400028, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1154263110}
+  m_LocalRotation: {x: .00958320312, y: -1.45302891e-16, z: -5.44168442e-17, w: .999954104}
+  m_LocalPosition: {x: 2.98288396e-16, y: 1.08139014, z: -.363760978}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1710752115}
+--- !u!1 &1154947859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1035120703}
-  - 33: {fileID: 1035120702}
-  - 23: {fileID: 1035120701}
-  - 64: {fileID: 1035120700}
+  - 4: {fileID: 1154947860}
+  - 95: {fileID: 1154947861}
+  - 114: {fileID: 1154947862}
   m_Layer: 0
-  m_Name: Sphere.1
+  m_Name: pacmau5_v3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1035120700
-MeshCollider:
+--- !u!4 &1154947860
+Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 6400002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
@@ -1995,11 +2391,127 @@ Prefab:
   m_RootGameObject: {fileID: 591571272}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+=======
+  m_PrefabParentObject: {fileID: 400046, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1154947859}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children:
+  - {fileID: 1454021179}
+  - {fileID: 1945952781}
+  m_Father: {fileID: 1750493967}
+--- !u!95 &1154947861
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1154947859}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+  m_Controller: {fileID: 9100000, guid: a9554e7453d4e474ba97638df2a05d70, type: 2}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
+--- !u!114 &1154947862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1154947859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd7937e6fe0d5b468757494ca4d7d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1154947861}
+  obj: {fileID: 1862950216}
+--- !u!1 &1166047711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1166047712}
+  - 114: {fileID: 1166047715}
+  - 65: {fileID: 1166047714}
+  - 54: {fileID: 1166047713}
+  m_Layer: 2
+  m_Name: GhostObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1166047712
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1166047711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.52128029, y: 1, z: -1.20251679}
+  m_LocalScale: {x: 1.781757, y: 1.781757, z: 1.781757}
+  m_Children:
+  - {fileID: 496139670}
+  m_Father: {fileID: 0}
+--- !u!54 &1166047713
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: f98de19bfda3ae0468ac279606a5d022,
+    type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1166047711}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
+--- !u!65 &1166047714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500004, guid: f98de19bfda3ae0468ac279606a5d022,
+    type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1166047711}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.04999995, y: 1.04999995, z: 1.04999995}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1166047715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f98de19bfda3ae0468ac279606a5d022,
+    type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1166047711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f346ad63ed2add42bfc37d7dccb1668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 --- !u!1 &1188479058
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100008, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1188479059}
@@ -2015,7 +2527,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400008, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1188479058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2027,7 +2543,11 @@ Light:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 10800000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1188479058}
   m_Enabled: 1
   serializedVersion: 3
@@ -2102,7 +2622,11 @@ Prefab:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100014, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1230554778}
@@ -2120,8 +2644,13 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400014, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 1230554777}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1230931153}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .5, y: 0, z: 0}
   m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
@@ -2132,8 +2661,13 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300006, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 1230554777}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1230931153}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2154,8 +2688,13 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500006, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 1230554777}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1230931153}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
@@ -2167,8 +2706,13 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300006, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1154802313}
   m_GameObject: {fileID: 1230554777}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1230931153}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1249649188
 Prefab:
@@ -2213,8 +2757,13 @@ Prefab:
 --- !u!1 &1254646270
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
   m_PrefabInternal: {fileID: 1318698804}
+=======
+  m_PrefabParentObject: {fileID: 100000, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1254646271}
@@ -2230,9 +2779,15 @@ GameObject:
 --- !u!4 &1254646271
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400012, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
   m_PrefabInternal: {fileID: 1318698804}
   m_GameObject: {fileID: 1254646270}
+=======
+  m_PrefabParentObject: {fileID: 400000, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1265691591}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.75405598, y: 1, z: -1.20251679}
   m_LocalScale: {x: 1.781757, y: 1.781757, z: 1.781757}
@@ -2257,8 +2812,13 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: f98de19bfda3ae0468ac279606a5d022,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1318698804}
   m_GameObject: {fileID: 1254646270}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1265691591}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073f3faa603bf0145ab540c66fe49f1c, type: 3}
@@ -2268,7 +2828,11 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1304056685}
@@ -2286,7 +2850,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1304056684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: .5}
@@ -2298,7 +2866,11 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1304056684}
   m_Enabled: 0
   m_CastShadows: 1
@@ -2320,7 +2892,11 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1304056684}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2333,6 +2909,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1304056684}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -2407,22 +2984,32 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100036, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1304056684}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1319528115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1337194899}
-  - 33: {fileID: 1337194902}
-  - 23: {fileID: 1337194901}
-  - 64: {fileID: 1337194900}
+  - 4: {fileID: 1319528116}
+  - 33: {fileID: 1319528118}
+  - 23: {fileID: 1319528117}
   m_Layer: 0
-  m_Name: eye.1
+  m_Name: eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1337194899
+--- !u!4 &1319528116
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400036, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1337194898}
@@ -2452,6 +3039,23 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1337194898}
+=======
+  m_PrefabParentObject: {fileID: 400026, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1319528115}
+  m_LocalRotation: {x: -.425668508, y: -.00425232109, z: .0200545155, w: .904646933}
+  m_LocalPosition: {x: .0317589194, y: -.0250076931, z: .58774066}
+  m_LocalScale: {x: .297364861, y: .30023706, z: .151511505}
+  m_Children: []
+  m_Father: {fileID: 397173992}
+--- !u!23 &1319528117
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1319528115}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2467,9 +3071,10 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
---- !u!33 &1337194902
+--- !u!33 &1319528118
 MeshFilter:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 3300012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
@@ -2503,11 +3108,22 @@ Transform:
   - {fileID: 1322680420}
   - {fileID: 1383944124}
   m_Father: {fileID: 1025425614}
+=======
+  m_PrefabParentObject: {fileID: 3300016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1319528115}
+  m_Mesh: {fileID: 4300006, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 --- !u!1 &1378546435
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1378546436}
@@ -2525,7 +3141,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1378546435}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .5, y: 0, z: 0}
@@ -2537,7 +3157,11 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1378546435}
   m_Enabled: 0
   m_CastShadows: 1
@@ -2559,7 +3183,11 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1378546435}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2572,6 +3200,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1378546435}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -2699,11 +3328,20 @@ Transform:
   m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
   m_Children: []
   m_Father: {fileID: 908467485}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1378546435}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 --- !u!1 &1435208938
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1435208939}
@@ -2721,7 +3359,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1435208938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.5, y: 0, z: 0}
@@ -2733,7 +3375,11 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1435208938}
   m_Enabled: 0
   m_CastShadows: 1
@@ -2755,7 +3401,11 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1435208938}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2768,28 +3418,37 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1435208938}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1471336594
+--- !u!1 &1454021178
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 100044, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1471336595}
-  - 114: {fileID: 1471336596}
+  - 4: {fileID: 1454021179}
   m_Layer: 0
-  m_Name: TriggerDoll
+  m_Name: Pacmau5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1471336595
+--- !u!4 &1454021179
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1471336594}
@@ -2818,22 +3477,40 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100042, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 400044, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1454021178}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: .0269483328, y: .430472851, z: -7.455521e-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1842365836}
+  - {fileID: 397173992}
+  - {fileID: 299022052}
+  m_Father: {fileID: 1154947860}
+--- !u!1 &1456382825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1472863403}
-  - 33: {fileID: 1472863406}
-  - 23: {fileID: 1472863405}
-  - 64: {fileID: 1472863404}
+  - 4: {fileID: 1456382826}
+  - 33: {fileID: 1456382828}
+  - 23: {fileID: 1456382827}
   m_Layer: 0
-  m_Name: whitemouth
+  m_Name: Sphere.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1472863403
+--- !u!4 &1456382826
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400042, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1472863402}
@@ -2863,13 +3540,30 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1472863402}
+=======
+  m_PrefabParentObject: {fileID: 400018, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1456382825}
+  m_LocalRotation: {x: -.0692625418, y: -.075592272, z: -.675199032, w: .730475724}
+  m_LocalPosition: {x: .161183313, y: -.0328774601, z: -.334074169}
+  m_LocalScale: {x: .106018446, y: .221427962, z: .738797069}
+  m_Children: []
+  m_Father: {fileID: 87477450}
+--- !u!23 &1456382827
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1456382825}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: d51815c8710476e4d900b138c6f336a2, type: 2}
+  - {fileID: 2100000, guid: 8659424a149e6a244addacbfe6e23a77, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2878,9 +3572,10 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
---- !u!33 &1472863406
+--- !u!33 &1456382828
 MeshFilter:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 3300014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
@@ -2899,10 +3594,30 @@ GameObject:
   m_Layer: 2
   m_Name: GhostObject
   m_TagString: Ghost
+=======
+  m_PrefabParentObject: {fileID: 3300012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1456382825}
+  m_Mesh: {fileID: 4300000, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+--- !u!1 &1471336594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1471336595}
+  - 114: {fileID: 1471336596}
+  m_Layer: 0
+  m_Name: TriggerDoll
+  m_TagString: Untagged
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!4 &1491974392
 Transform:
   m_ObjectHideFlags: 0
@@ -2938,6 +3653,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073f3faa603bf0145ab540c66fe49f1c, type: 3}
+=======
+--- !u!4 &1471336595
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1471336594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1378546436}
+  - {fileID: 1435208939}
+  - {fileID: 1304056685}
+  m_Father: {fileID: 1750493967}
+--- !u!114 &1471336596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1471336594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db4e5ba70b9b4248bcd7601339c60cc, type: 3}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1512051357
@@ -3009,6 +3750,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.5, z: 15.8249712}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!1001 &1628640619
 Prefab:
   m_ObjectHideFlags: 0
@@ -3049,11 +3791,108 @@ Prefab:
   m_RootGameObject: {fileID: 1491974391}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+=======
+--- !u!1 &1537933065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1537933066}
+  - 108: {fileID: 1537933067}
+  m_Layer: 2
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537933066
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1537933065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 496139670}
+--- !u!108 &1537933067
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10800000, guid: f98de19bfda3ae0468ac279606a5d022,
+    type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1537933065}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 0
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
+--- !u!1 &1710752114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1710752115}
+  m_Layer: 0
+  m_Name: Joint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1710752115
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1710752114}
+  m_LocalRotation: {x: -.191255316, y: .680750608, z: .191255316, w: .680750608}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 573661333}
+  - {fileID: 1154263111}
+  m_Father: {fileID: 1945952781}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 --- !u!1 &1750493966
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100010, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1750493967}
@@ -3070,7 +3909,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400010, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1750493966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3078,16 +3921,20 @@ Transform:
   m_Children:
   - {fileID: 1188479059}
   - {fileID: 1471336595}
-  - {fileID: 495177118}
+  - {fileID: 1154947860}
   m_Father: {fileID: 1862950217}
 --- !u!23 &1750493968
 Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1750493966}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -3107,7 +3954,11 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1750493966}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1751965941
@@ -3377,41 +4228,131 @@ Transform:
   m_LocalScale: {x: 1, y: 1.5, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &1840372608
+--- !u!1 &1842365835
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100044, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabParentObject: {fileID: 100040, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1840372609}
+  - 4: {fileID: 1842365836}
+  - 137: {fileID: 1842365837}
   m_Layer: 0
-  m_Name: Null
+  m_Name: Boole.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1840372609
+--- !u!4 &1842365836
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400044, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 1840372608}
+=======
+  m_PrefabParentObject: {fileID: 400040, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1842365835}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.138999104, y: .258842617, z: -1.05845345e-06}
+  m_LocalPosition: {x: -.0269483328, y: -.430472851, z: 7.455521e-08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 631992044}
-  - {fileID: 1337194899}
-  - {fileID: 352118952}
-  - {fileID: 1014601579}
-  m_Father: {fileID: 156842560}
+  - {fileID: 404653487}
+  m_Father: {fileID: 1454021179}
+--- !u!137 &1842365837
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1842365835}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8659424a149e6a244addacbfe6e23a77, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300010, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+  m_Bones:
+  - {fileID: 1945952781}
+  - {fileID: 1710752115}
+  - {fileID: 573661333}
+  - {fileID: 1154263111}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1945952781}
+  m_AABB:
+    m_Center: {x: -.65108043, y: .0139482617, z: 0}
+    m_Extent: {x: 1.03920627, y: 1.37094855, z: .991485298}
+  m_DirtyAABB: 0
+--- !u!1001 &1851943855
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.28103399
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .959795952
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.57840228
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_RootGameObject: {fileID: 1862950216}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1862950216
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1862950217}
@@ -3429,7 +4370,11 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1862950216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.28103399, y: 1, z: -7.62027073}
@@ -3443,7 +4388,11 @@ Rigidbody:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 5400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1862950216}
   serializedVersion: 2
   m_Mass: 1
@@ -3459,7 +4408,11 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1862950216}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -3472,7 +4425,11 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_GameObject: {fileID: 1862950216}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3659,8 +4616,13 @@ Light:
 --- !u!1 &2045042008
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 100002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
   m_PrefabInternal: {fileID: 1249649188}
+=======
+  m_PrefabParentObject: {fileID: 100002, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2045042009}
@@ -3676,9 +4638,15 @@ GameObject:
 --- !u!4 &2045042009
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
   m_PrefabInternal: {fileID: 1249649188}
   m_GameObject: {fileID: 2045042008}
+=======
+  m_PrefabParentObject: {fileID: 400002, guid: f98de19bfda3ae0468ac279606a5d022, type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1897096124}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: .5, y: .5, z: .5}
@@ -3689,9 +4657,15 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1249649188}
   m_GameObject: {fileID: 2045042008}
   m_Enabled: 1
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1897096124}
+  m_Enabled: 0
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -3706,11 +4680,29 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
 --- !u!33 &2045042011
+=======
+--- !u!65 &1897096127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: f98de19bfda3ae0468ac279606a5d022,
+    type: 2}
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1897096124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1897096128
+>>>>>>> master:Assets/Scenes/TestMovement.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
     type: 2}
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabInternal: {fileID: 1249649188}
   m_GameObject: {fileID: 2045042008}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
@@ -3719,12 +4711,48 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100046, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
+=======
+  m_PrefabInternal: {fileID: 1147038423}
+  m_GameObject: {fileID: 1897096124}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1945952780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 2050073110}
-  - 33: {fileID: 2050073113}
-  - 23: {fileID: 2050073112}
-  - 64: {fileID: 2050073111}
+  - 4: {fileID: 1945952781}
+  m_Layer: 0
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1945952781
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 1945952780}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: .729723573, y: -.0170723498, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1710752115}
+  m_Father: {fileID: 1154947860}
+--- !u!1 &2098032409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2098032410}
+  - 33: {fileID: 2098032412}
+  - 23: {fileID: 2098032411}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -3732,16 +4760,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2050073110
+--- !u!4 &2098032410
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 400046, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 2050073109}
+=======
+  m_PrefabParentObject: {fileID: 400016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 2098032409}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_LocalRotation: {x: .0692608505, y: .0755915716, z: -.675198972, w: .730476022}
   m_LocalPosition: {x: .161183968, y: -.0328765959, z: .334070414}
   m_LocalScale: {x: .106017709, y: .221427411, z: .738797247}
   m_Children: []
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_Father: {fileID: 1014601579}
 --- !u!64 &2050073111
 MeshCollider:
@@ -3764,6 +4799,16 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
   m_GameObject: {fileID: 2050073109}
+=======
+  m_Father: {fileID: 1076718351}
+--- !u!23 &2098032411
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 2098032409}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3779,9 +4824,10 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
---- !u!33 &2050073113
+--- !u!33 &2098032412
 MeshFilter:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:Assets/Resources/Scenes/TestMovement.unity
   m_PrefabParentObject: {fileID: 3300016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
     type: 2}
   m_PrefabInternal: {fileID: 135410187}
@@ -4004,3 +5050,10 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+=======
+  m_PrefabParentObject: {fileID: 3300010, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851943855}
+  m_GameObject: {fileID: 2098032409}
+  m_Mesh: {fileID: 4300002, guid: 5b7df1ae1a1297c41bd60fe7ae5d5499, type: 3}
+>>>>>>> master:Assets/Scenes/TestMovement.unity
