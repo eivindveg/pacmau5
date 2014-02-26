@@ -300,4 +300,23 @@ public class PacMau5ActorScript : MonoBehaviour
             // INSTANTIATE BULLET OBJECT
         }
     }
+
+    // ReSharper disable once UnusedMember.Local
+    private void OnTriggerEnter(Component other)
+    {
+        if (other.tag == "Ghost" && this.tag == "Player")
+        {
+            if (this.ghostKiller == true)
+            {
+                // TODO Implement ActorCommands.GhostKill
+               // ActorCommands.GhostKill(other);
+            }
+            else
+            {
+                Debug.Log("Attempting to kill player!");
+                // TODO Implement ActorCommands.PlayerKill
+                ActorCommands.PlayerKill(this.gameObject);
+            }
+        }
+    }
 }

@@ -7,7 +7,10 @@ public class ScoreScript : MonoBehaviour
     {
         HighScore = 0;
         CurrentScore = 0;
+        Lives = 3;
     }
+
+    public static int Lives { get; set; }
 
     public static int HighScore { get; set; }
 
