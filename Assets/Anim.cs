@@ -10,9 +10,12 @@ public class Anim : MonoBehaviour {
     
     void Update ()
     {
-        if(obj.rigidbody.IsSleeping()) {
+        if (this.obj.rigidbody.IsSleeping())
+        {
             this.anim.SetBool(runState,true);
-        }else{
+        }
+        else
+        {
             this.anim.SetBool(runState,false);
         }
     }
