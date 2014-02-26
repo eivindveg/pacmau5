@@ -20,6 +20,8 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private bool isPlayer;
     private bool ghostKiller;
+
+    private int killTimer;
     private string direction;
     private float[] wallDistance;
     private int framesSinceLeftBlocked;
@@ -32,11 +34,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private TriggerDollScript triggerDoll;
 
-    public PacMau5ActorScript()
-    {
-        this.ammunition = 0;
-    }
-
     public void AddAmmo(int amnt)
     {
         this.ammunition++;
@@ -48,9 +45,11 @@ public class PacMau5ActorScript : MonoBehaviour
     }
 
     // Use this for initialization
-// ReSharper disable once UnusedMember.Local
+    // ReSharper disable once UnusedMember.Local
     private void Start()
     {
+        this.ammunition = 0;
+        this.killTimer = 180;
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
@@ -63,9 +62,14 @@ public class PacMau5ActorScript : MonoBehaviour
     }
 
     // Update is called once per frame
-// ReSharper disable once UnusedMember.Local
+    // ReSharper disable once UnusedMember.Local
     private void Update()
     {
+        if (this.killTimer >= 1)
+        {
+            this.killTimer--;
+        }
+
         if (this.isPlayer)
         {
             if (!Input.GetButtonDown("Shoot"))
@@ -146,7 +150,7 @@ public class PacMau5ActorScript : MonoBehaviour
     }
 
     private void Move(string localDirection)
-    {   
+    {
         if (!this.CanMove())
         {
             return;
@@ -192,7 +196,7 @@ public class PacMau5ActorScript : MonoBehaviour
                 else
                 {
                     this.framesSinceRightBlocked = 0;
-                } 
+                }
             }
         }
 
@@ -304,18 +308,22 @@ public class PacMau5ActorScript : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void OnTriggerEnter(Component other)
     {
-        if (other.tag == "Ghost" && this.tag == "Player")
+        if (!(this.killTimer >= 1))
         {
-            if (this.ghostKiller == true)
+            if (other.tag == "Ghost" && this.tag == "Player")
             {
-                // TODO Implement ActorCommands.GhostKill
-               // ActorCommands.GhostKill(other);
-            }
-            else
-            {
-                Debug.Log("Attempting to kill player!");
-                // TODO Implement ActorCommands.PlayerKill
-                ActorCommands.PlayerKill(this.gameObject);
+                if (this.ghostKiller)
+                {
+                    // TODO Implement ActorCommands.GhostKill
+                    // ActorCommands.GhostKill(other);
+                }
+                else
+                {
+                    Debug.Log("Attempting to kill player!");
+
+                    // TODO Implement ActorCommands.PlayerKill
+                    ActorCommands.PlayerKill(this.gameObject);
+                }
             }
         }
     }
