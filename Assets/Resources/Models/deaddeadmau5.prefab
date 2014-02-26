@@ -193,7 +193,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.4176846, y: -9.68471146, z: -.111931324}
+  m_LocalPosition: {x: -14.6333141, y: -10.0381279, z: 3.85725284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
@@ -338,10 +338,10 @@ ParticleAnimator:
     rgba: 3841982463
   colorAnimation[4]:
     serializedVersion: 2
-    rgba: 301989888
+    rgba: 0
   worldRotationAxis: {x: 0, y: 0, z: 0}
   localRotationAxis: {x: 0, y: 0, z: 0}
-  sizeGrow: .150000006
+  sizeGrow: .200000003
   rndForce: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   damping: 1
@@ -373,7 +373,7 @@ ParticleAnimator:
   localRotationAxis: {x: 0, y: 0, z: 0}
   sizeGrow: 0
   rndForce: {x: 0, y: 0, z: 0}
-  force: {x: 0, y: -1, z: 0}
+  force: {x: 0, y: -4, z: 0}
   damping: 1
   stopSimulation: 0
   autodestruct: 0
@@ -386,8 +386,8 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: .100000001
-  maxSize: .200000003
+  minSize: .5
+  maxSize: .699999988
   minEnergy: 25
   maxEnergy: 50
   minEmission: .200000003
@@ -418,8 +418,8 @@ EllipsoidParticleEmitter:
   minEnergy: 5
   maxEnergy: 5
   minEmission: .300000012
-  maxEmission: 1
-  worldVelocity: {x: .400000006, y: 1, z: 0}
+  maxEmission: 2
+  worldVelocity: {x: .600000024, y: 3, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
   rndVelocity: {x: 0, y: 0, z: 0}
   emitterVelocityScale: .0500000007
@@ -585,7 +585,7 @@ ParticleRenderer:
   m_StretchParticles: 4
   m_LengthScale: 2
   m_VelocityScale: 0
-  m_MaxParticleSize: 3
+  m_MaxParticleSize: 2
   UV Animation:
     x Tile: 1
     y Tile: 1
@@ -682,13 +682,13 @@ WorldParticleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
-  m_BounceFactor: 0
+  m_BounceFactor: .00200000009
   m_CollisionEnergyLoss: 0
   m_CollidesWith:
     serializedVersion: 2
     m_Bits: 4294967295
   m_SendCollisionMessage: 1
-  m_MinKillVelocity: .00999999978
+  m_MinKillVelocity: .00100000005
 --- !u!108 &10800000
 Light:
   m_ObjectHideFlags: 1
