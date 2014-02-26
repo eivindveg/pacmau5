@@ -46,26 +46,5 @@ public class Logo : MonoBehaviour {
 		texture.color = textureColor;
 	}
 
-
-
-	void Start () {
-
-		
-	}
-
-
-	
-	void Update () {
-
-				}
-
-
-
-		
-		
-		
-
-
-	
-	}
+}
 
