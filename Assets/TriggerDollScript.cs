@@ -11,13 +11,36 @@ public class TriggerDollScript : MonoBehaviour
     public bool IsLeftClear()
     {
         var direction = transform.TransformDirection(Vector3.left);
-        return !Physics.Raycast(new Ray(this.left.transform.position, direction), ScanDistance + this.transform.localScale.x);
+        if (Physics.Raycast(new Ray(this.left.transform.position, direction), ScanDistance))
+        {
+            return false;
+        }
+
+        var position = this.transform.position;
+        position.z -= 0.3f;
+        if (Physics.Raycast(new Ray(position, direction), ScanDistance + transform.localScale.x))
+        {
+            return false;
+        }
+
+        return true;
     }
 
     public bool IsRightClear()
     {
         var direction = transform.TransformDirection(Vector3.right);
-        return !Physics.Raycast(new Ray(this.right.transform.position, direction), ScanDistance + transform.localScale.x);
+        if (Physics.Raycast(new Ray(this.right.transform.position, direction), ScanDistance))
+        {
+            return false;
+        }
+        var position = this.transform.position;
+        position.z -= 0.3f;
+        if (Physics.Raycast(new Ray(position, direction), ScanDistance + transform.localScale.x))
+        {
+            return false;
+        }
+
+        return true;
     }
 
     public bool IsClearOnBothSides()

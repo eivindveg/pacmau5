@@ -97,7 +97,12 @@ public class PacMau5ActorScript : MonoBehaviour
         }
 
         var localDirection = this.RegisterDirection() ?? this.direction;
+        this.Rotate(direction);
         this.Move(localDirection);
+        if (this.tag == "Player")
+        {
+            this.direction = localDirection;
+        }
     }
 
     private bool CanMove()
@@ -147,6 +152,7 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private void TurnLeft()
     {
+        Debug.Log("Turning left!");
         switch (this.direction)
         {
             case "North":
@@ -166,6 +172,7 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private void TurnRight()
     {
+        Debug.Log("Turning right!");
         switch (this.direction)
         {
             case "North":
@@ -195,6 +202,7 @@ public class PacMau5ActorScript : MonoBehaviour
 
         if (!this.isPlayer)
         {
+
             if (Random.Range(0, 100) < 1)
             {
                 if (Random.Range(0, 2) < 1)
@@ -202,6 +210,8 @@ public class PacMau5ActorScript : MonoBehaviour
                     if (this.framesSinceLeftBlocked > 10)
                     {
                         this.TurnLeft();
+                        this.framesSinceLeftBlocked = 0;
+                        this.framesSinceRightBlocked = 0;
                     }
                 }
                 else
@@ -209,6 +219,8 @@ public class PacMau5ActorScript : MonoBehaviour
                     if (this.framesSinceRightBlocked > 10)
                     {
                         this.TurnRight();
+                        this.framesSinceRightBlocked = 0;
+                        this.framesSinceLeftBlocked = 0;
                     }
                 }
             }
@@ -286,30 +298,40 @@ public class PacMau5ActorScript : MonoBehaviour
         {
             localDirection = this.possibleDirections.FirstOrDefault(this.GetInput);
 
+            // Debug.Log("Checking if this is left");
             if (this.IsLeft(localDirection))
             {
+                // Debug.Log("This is left");
                 if (this.triggerDoll.IsLeftClear())
                 {
+//                    Debug.Log("Turning left");
                     return localDirection;
                 }
+                return null;
             }
-            else if (this.IsRight(localDirection))
+            else 
             {
-                if (this.triggerDoll.IsRightClear())
+                // Debug.Log("Checking if this is right");
+                if (this.IsRight(localDirection))
                 {
-                    return localDirection;
+                    // Debug.Log("This is right");
+                    if (this.triggerDoll.IsRightClear())
+                    {
+                        // Debug.Log("Can turn right!");
+                        return localDirection;
+                    }
+                    return null;
                 }
             }
             
             return localDirection;
         }
-
-        if (this.direction != null)
+        if (!this.triggerDoll.IsClearForward())
         {
-            this.Rotate(this.direction);
-            return this.direction;
+            this.direction = null;
         }
-
+        if (this.direction == null) 
+        { 
         var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
         switch (dirAsInt)
         {
@@ -331,7 +353,9 @@ public class PacMau5ActorScript : MonoBehaviour
 
         this.direction = localDirection;
         this.Rotate(this.direction);
-        return localDirection;
+        
+        }
+        return this.direction;
     }
 
     private bool GetInput(string inputValue)
@@ -341,8 +365,6 @@ public class PacMau5ActorScript : MonoBehaviour
             return false;
         }
 
-        this.Rotate(inputValue);
-        this.direction = inputValue;
         return true;
     }
 

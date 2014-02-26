@@ -551,7 +551,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -672,7 +672,7 @@ Animator:
   m_GameObject: {fileID: 100034}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 0004dc20eb3e0eb458b32b52cb6a2011, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9ac059a5661153a40a42b4bf34d29337, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
