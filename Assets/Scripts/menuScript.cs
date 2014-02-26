@@ -26,11 +26,11 @@ public class menuScript : MonoBehaviour {
 		}
 		if (stop) {
 			
-						if (GUI.Button (new Rect (Screen.width / 2 - 200, Screen.height / 2 + 40, 160, 40), "Start")) {
+						if (GUI.Button (new Rect (Screen.width / 2 - 180, Screen.height / 2 + 120, 120, 30), "Start")) {
 								Application.LoadLevel (1);
 				
 						}
-						if (GUI.Button (new Rect (Screen.width / 2 - 80, Screen.height / 2 + 100, 160, 40), "Quit Game")) {
+						if (GUI.Button (new Rect (Screen.width / 2 + 50, Screen.height / 2 + 120, 120, 30), "Quit Game")) {
 								Application.Quit ();
 						}
 				}

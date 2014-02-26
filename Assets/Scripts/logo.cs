@@ -15,8 +15,9 @@ public class logo : MonoBehaviour {
 
 	void OnGUI()
 	{
-		texture.guiTexture.pixelInset = new Rect (Screen.width / 2 / 2, Screen.height / 2 / 2, Screen.width / 2 ,Screen.height / 2);
+		texture.guiTexture.pixelInset = new Rect (Screen.width / 2 - Screen.width / 2 / 2 - Screen.width / 2 / 2, Screen.height / 2 - Screen.height / 2 / 2, Screen.width / 2 ,Screen.height / 2);
 		Color textureColor = texture.color;
+		textureColor.a = alpha;
 		if(!stop){
 		if (!back) {		
 			
