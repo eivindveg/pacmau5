@@ -67,7 +67,7 @@ public class PacMau5ActorScript : MonoBehaviour
     private void Blink()
     {
         this.blinkTimer++;
-        if (this.blinkTimer < 20 || this.blinkTimer < 40)
+        if (this.blinkTimer < 10 || this.blinkTimer < 30 || this.blinkTimer < 50)
         {
             this.mau5Model.SetActive(true);
         }
