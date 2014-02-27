@@ -16,6 +16,11 @@ public class ScoreScript : MonoBehaviour
 
     public static int CurrentScore { get; set; }
 
+	public static int checkHighScore() {
+		if (CurrentScore > HighScore) HighScore = CurrentScore;
+		return HighScore;
+	}
+
     // Use this for initialization
     // ReSharper disable once UnusedMember.Local
     private void Start()
