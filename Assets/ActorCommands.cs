@@ -28,7 +28,7 @@ public class ActorCommands : MonoBehaviour
             Destroy(player);
             if (ScoreScript.Lives <= 0)
             {
-                Application.LoadLevel(4);
+                Application.LoadLevel(3);
             }
             else
             {
