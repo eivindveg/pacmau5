@@ -7,8 +7,8 @@ public class PacMau5ActorScript : MonoBehaviour
 {
     public const float MoveDistancePerFrame = 1.0f / 8.0f;
 
-    private static readonly Color NormalColor = new Color(255.0f, 0.0f, 0.0f);
-    private static readonly Color SuperColor = new Color(0.0f, 0.0f, 255.0f);
+    private static readonly Color NormalColor = new Color(1.0f, 0.0f, 0.0f);
+    private static readonly Color SuperColor = new Color(0.0f, 0.0f, 1.0f);
 
     private readonly string[] possibleDirections =
     {
@@ -27,6 +27,8 @@ public class PacMau5ActorScript : MonoBehaviour
     private int framesSinceLeftBlocked;
     private int framesSinceRightBlocked;
     private int ammunition;
+
+    private int blinkTimer;
     private int godModeFrames;
     private GameObject playerModel;
 
@@ -48,17 +50,43 @@ public class PacMau5ActorScript : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void Start()
     {
+        this.blinkTimer = 0;
         this.ammunition = 0;
-        this.killTimer = 180;
+        if (this.tag == "Player")
+        {
+            this.killTimer = 180;
+        }
+        else
+        {
+            this.killTimer = 0;
+        }
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
-            this.mau5Model = this.playerModel.transform.Find("pacmau5_v5").gameObject;
+            this.mau5Model = this.playerModel.transform.Find("pacmau5_v5/Pacmau5.1").gameObject;
         }
 
         this.triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
 
         this.isPlayer = this.tag == "Player";
+    }
+
+    private void Blink()
+    {
+        this.blinkTimer++;
+        if (this.blinkTimer < 20 || this.blinkTimer < 40)
+        {
+            this.mau5Model.SetActive(true);
+        }
+        else
+        {
+            this.mau5Model.SetActive(false);
+        }
+        if (this.blinkTimer >= 60)
+        {
+            this.blinkTimer = 0;
+            this.mau5Model.SetActive(true);
+        }
     }
 
     // Update is called once per frame
@@ -68,6 +96,7 @@ public class PacMau5ActorScript : MonoBehaviour
         if (this.killTimer >= 1)
         {
             this.killTimer--;
+            this.Blink();
         }
 
         if (this.isPlayer)
@@ -97,7 +126,7 @@ public class PacMau5ActorScript : MonoBehaviour
         }
 
         var localDirection = this.RegisterDirection() ?? this.direction;
-        this.Rotate(direction);
+        this.Rotate(this.direction);
         this.Move(localDirection);
         if (this.tag == "Player")
         {
@@ -202,7 +231,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
         if (!this.isPlayer)
         {
-
             if (Random.Range(0, 100) < 1)
             {
                 if (Random.Range(0, 2) < 1)
@@ -304,63 +332,65 @@ public class PacMau5ActorScript : MonoBehaviour
                 // Debug.Log("This is left");
                 if (this.triggerDoll.IsLeftClear())
                 {
-//                    Debug.Log("Turning left");
+                    // Debug.Log("Turning left");
                     return localDirection;
                 }
+
                 return null;
             }
-            else 
+
+            // Debug.Log("Checking if this is right");
+            if (this.IsRight(localDirection))
             {
-                // Debug.Log("Checking if this is right");
-                if (this.IsRight(localDirection))
+                // Debug.Log("This is right");
+                if (this.triggerDoll.IsRightClear())
                 {
-                    // Debug.Log("This is right");
-                    if (this.triggerDoll.IsRightClear())
-                    {
-                        // Debug.Log("Can turn right!");
-                        return localDirection;
-                    }
-                    return null;
+                    // Debug.Log("Can turn right!");
+                    return localDirection;
                 }
+
+                return null;
             }
-            
+
             return localDirection;
         }
+
         if (!this.triggerDoll.IsClearForward())
         {
             this.direction = null;
         }
-        if (this.direction == null) 
-        { 
-        var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
-        switch (dirAsInt)
+
+        if (this.direction == null)
         {
-            case 0:
-                localDirection = "North";
-                break;
-            case 1:
-                localDirection = "South";
-                break;
-            case 2:
-                localDirection = "East";
-                break;
-            case 3:
-                localDirection = "West";
-                break;
-            default:
-                return null;
+            var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
+            switch (dirAsInt)
+            {
+                case 0:
+                    localDirection = "North";
+                    break;
+                case 1:
+                    localDirection = "South";
+                    break;
+                case 2:
+                    localDirection = "East";
+                    break;
+                case 3:
+                    localDirection = "West";
+                    break;
+                default:
+                    return null;
+            }
+
+            this.direction = localDirection;
+            this.Rotate(this.direction);
         }
 
-        this.direction = localDirection;
-        this.Rotate(this.direction);
-        
-        }
         return this.direction;
     }
 
     private bool GetInput(string inputValue)
     {
-        if (!Input.GetButtonDown(inputValue))
+        if (!Input.GetButton(inputValue))
         {
             return false;
         }
@@ -388,7 +418,7 @@ public class PacMau5ActorScript : MonoBehaviour
                 if (this.ghostKiller)
                 {
                     // TODO Implement ActorCommands.GhostKill
-                    // ActorCommands.GhostKill(other);
+                    ActorCommands.GhostKill(other.gameObject);
                 }
                 else
                 {
