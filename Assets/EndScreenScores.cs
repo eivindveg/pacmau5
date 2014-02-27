@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class EndScreenScores : MonoBehaviour {
-
-	public GUIText Score;
+// ReSharper disable once CheckNamespace
+public class EndScreenScores : MonoBehaviour
+{
+    public GUIText Score;
 	public GUIText HighScore;
 	public GUIText LivesLeft;
 	public GUIText NewHighScore;
 	public GUIText WinOrLoose;
 	public bool EndState;
 	public Transform ChangingLightsContainer;
-	public Transform pacmau5_v5;
-	public Transform deaddeadmau5;
+	public Transform Pacmau5V5;
+	public Transform Deaddeadmau5;
+	public new AudioClip audio;
 
-	
-	
+    
 	
 	
 	
@@ -28,14 +28,22 @@ public class EndScreenScores : MonoBehaviour {
 
 		if (EndState) {
 			WinOrLoose.text = "YOU WIN!";
-			deaddeadmau5.active = false;
+			this.Deaddeadmau5.gameObject.SetActive(false);
+			audio = (AudioClip)Resources.Load("Sounds/PM_P_WinSound");
+			LivesLeft.text = "Lives Left: " + ScoreScript.Lives;
 			}
 
 		if (!EndState) {
 			WinOrLoose.text = "Game Over";
-			ChangingLightsContainer.active = false;
-			pacmau5_v5.active = false;
-			}
+			ChangingLightsContainer.gameObject.SetActive(false);
+			this.Pacmau5V5.gameObject.SetActive(false);
+			audio = (AudioClip)Resources.Load ("Sounds/PM_P_Death_Game_Over");
+
+		}
+
+		AudioSource audioSource = GameObject.FindObjectOfType<Camera>().gameObject.GetComponent<AudioSource> ();
+		audioSource.clip = this.audio;
+		audioSource.Play ();
 
 		// Scores
 		Score.text = "Score: " + ScoreScript.CurrentScore;
@@ -44,7 +52,7 @@ public class EndScreenScores : MonoBehaviour {
 						NewHighScore.text = "New High Score!";
 				}
 		HighScore.text = "Highscore: " + ScoreScript.HighScore;
-		LivesLeft.text = "Lives Left: " + ScoreScript.Lives;
+
 
 		
 	}

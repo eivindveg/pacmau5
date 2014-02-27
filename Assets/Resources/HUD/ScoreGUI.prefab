@@ -147,12 +147,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bb8e3767ad2ec34689303757b9ba969, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c0c4cfb1e6ca454093dff0952efd96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentScore: {fileID: 13200004}
-  HighScore: {fileID: 13200000}
-  LivesLeft: {fileID: 13200002}
+  currentScore: {fileID: 13200004}
+  highScore: {fileID: 13200000}
+  livesLeft: {fileID: 13200002}
 --- !u!131 &13100000
 GUITexture:
   m_ObjectHideFlags: 1
