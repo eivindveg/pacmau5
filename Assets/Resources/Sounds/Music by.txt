@@ -7,4 +7,37 @@ Chopped Sounds
 	Deadmau5 - Closer (cover)
 
 	Deadmau5 - Fn Pig
-	
+
+______________________________
+Stage 1 Cam
+
+- cam needs 2 audio Sources 
+
+Startsound = PM_NewGame;
+audioClips
+	Size 2
+	0: PM_P_Walk_stage_1_start
+	1: PM_P_Walk_stage_1_loop4
+
+delayclips:
+	Size 3
+	0: 220 // delay after startsound
+	1: 200 // ??
+	2: 350 // LoopTime
+
+______________________________
+stage 2 Cam
+
+- cam Needs 2 audio sources¨
+Startsound = PM_NewGame;
+audioClips
+	size 2
+	0:PM_P_Walk_stage_1_start
+	1:PM_P_Walk_stage_2
+
+delayClips:
+	size 3
+	0: 220  // delay after startsound
+	1: 200  // ??
+	3: 1250 // v
+______________________________
