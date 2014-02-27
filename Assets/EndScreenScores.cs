@@ -12,6 +12,7 @@ public class EndScreenScores : MonoBehaviour {
 	public Transform ChangingLightsContainer;
 	public Transform pacmau5_v5;
 	public Transform deaddeadmau5;
+	public AudioClip audio;
 
 	
 	
@@ -28,14 +29,22 @@ public class EndScreenScores : MonoBehaviour {
 
 		if (EndState) {
 			WinOrLoose.text = "YOU WIN!";
-			deaddeadmau5.active = false;
+			deaddeadmau5.gameObject.SetActive(false);
+			audio = (AudioClip)Resources.Load("Sounds/PM_P_WinSound");
+			LivesLeft.text = "Lives Left: " + ScoreScript.Lives;
 			}
 
 		if (!EndState) {
 			WinOrLoose.text = "Game Over";
-			ChangingLightsContainer.active = false;
-			pacmau5_v5.active = false;
-			}
+			ChangingLightsContainer.gameObject.SetActive(false);
+			pacmau5_v5.gameObject.SetActive(false);
+			audio = (AudioClip)Resources.Load ("Sounds/PM_P_Death_Game_Over");
+
+		}
+
+		AudioSource audioSource = GameObject.FindObjectOfType<Camera>().gameObject.GetComponent<AudioSource> ();
+		audioSource.clip = this.audio;
+		audioSource.Play ();
 
 		// Scores
 		Score.text = "Score: " + ScoreScript.CurrentScore;
@@ -44,7 +53,7 @@ public class EndScreenScores : MonoBehaviour {
 						NewHighScore.text = "New High Score!";
 				}
 		HighScore.text = "Highscore: " + ScoreScript.HighScore;
-		LivesLeft.text = "Lives Left: " + ScoreScript.Lives;
+
 
 		
 	}
