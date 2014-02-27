@@ -36,6 +36,8 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private TriggerDollScript triggerDoll;
 
+    public int TeleportCooldown { get; set; }
+
     public void AddAmmo(int amnt)
     {
         this.ammunition++;
@@ -52,14 +54,7 @@ public class PacMau5ActorScript : MonoBehaviour
     {
         this.blinkTimer = 0;
         this.ammunition = 0;
-        if (this.tag == "Player")
-        {
-            this.killTimer = 180;
-        }
-        else
-        {
-            this.killTimer = 0;
-        }
+        this.killTimer = this.tag == "Player" ? 180 : 0;
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
@@ -74,7 +69,7 @@ public class PacMau5ActorScript : MonoBehaviour
     private void Blink()
     {
         this.blinkTimer++;
-        if (this.blinkTimer < 20 || this.blinkTimer < 40)
+        if (this.blinkTimer < 10 || this.blinkTimer < 30 || this.blinkTimer < 50)
         {
             this.mau5Model.SetActive(true);
         }
@@ -82,6 +77,7 @@ public class PacMau5ActorScript : MonoBehaviour
         {
             this.mau5Model.SetActive(false);
         }
+
         if (this.blinkTimer >= 60)
         {
             this.blinkTimer = 0;
@@ -93,6 +89,11 @@ public class PacMau5ActorScript : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void Update()
     {
+        if (this.TeleportCooldown >= 1)
+        {
+            this.TeleportCooldown--;
+        }
+
         if (this.killTimer >= 1)
         {
             this.killTimer--;
@@ -114,6 +115,8 @@ public class PacMau5ActorScript : MonoBehaviour
                     this.ghostKiller = true;
                     this.mau5Model.renderer.material.color = SuperColor;
                 }
+
+                this.Blink();
             }
             else
             {
@@ -181,7 +184,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private void TurnLeft()
     {
-        Debug.Log("Turning left!");
         switch (this.direction)
         {
             case "North":
@@ -201,7 +203,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private void TurnRight()
     {
-        Debug.Log("Turning right!");
         switch (this.direction)
         {
             case "North":
