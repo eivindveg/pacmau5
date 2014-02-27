@@ -7,6 +7,7 @@ public class MenuScript : MonoBehaviour
 	bool last = false;
 	float speed=0.01f;
 	bool stop = false;
+
 	void OnGUI ()
 	{
 		if(Logo.showmenu == true && !stop)
@@ -19,6 +20,7 @@ public class MenuScript : MonoBehaviour
 			{
 				last=true;
 			}
+
 		}
 		if (last&&!stop)
 		{
@@ -26,6 +28,7 @@ public class MenuScript : MonoBehaviour
 			go.transform.position= new Vector3(0,0,0);
 			go.guiTexture.pixelInset = new Rect (Screen.width / 2 - Screen.width / 2 / 2, Screen.height / 2 - Screen.height / 2 / 2, Screen.width / 2 ,Screen.height / 2);
 			stop = true;
+			Logo.showmenu = false;
 		}
 		if (stop)
 		{
