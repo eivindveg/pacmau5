@@ -67,22 +67,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100008
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400008}
-  - 108: {fileID: 10800000}
-  m_Layer: 2
-  m_Name: Point light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,6 +94,7 @@ GameObject:
   - 4: {fileID: 400012}
   - 114: {fileID: 11400000}
   - 65: {fileID: 6500004}
+  - 54: {fileID: 5400000}
   m_Layer: 2
   m_Name: GhostObject
   m_TagString: Ghost
@@ -335,17 +320,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400016}
---- !u!4 &400008
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100008}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400010}
 --- !u!4 &400010
 Transform:
   m_ObjectHideFlags: 1
@@ -357,7 +331,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400034}
-  - {fileID: 400008}
   - {fileID: 400000}
   m_Father: {fileID: 400012}
 --- !u!4 &400012
@@ -368,7 +341,7 @@ Transform:
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.781757, y: 1.781757, z: 1.781757}
+  m_LocalScale: {x: 1.39999998, y: 1.39999998, z: 1.39999998}
   m_Children:
   - {fileID: 400010}
   m_Father: {fileID: 0}
@@ -551,7 +524,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -615,6 +588,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100014}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5400000
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -671,47 +659,12 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100034}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0004dc20eb3e0eb458b32b52cb6a2011, type: 3}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 2ff0ed264fcae1a4cad2662fed860674, type: 3}
+  m_Controller: {fileID: 9100000, guid: a8ebea23ed23ad84fa70532c3453287a, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
---- !u!108 &10800000
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100008}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Type: 0
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_Strength: 1
-    m_Bias: .0500000007
-    m_Softness: 4
-    m_SoftnessFade: 1
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_ActuallyLightmapped: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 1
-  m_ShadowSamples: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
-  m_IndirectIntensity: 1
-  m_AreaSize: {x: 1, y: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -742,7 +695,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd7937e6fe0d5b468757494ca4d7d56, type: 3}
+  m_Script: {fileID: 11500000, guid: 8572e7b6eb1d7e440a52dffe40705364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 9500000}
@@ -773,7 +726,7 @@ SkinnedMeshRenderer:
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
-  m_Mesh: {fileID: 4300000, guid: 0004dc20eb3e0eb458b32b52cb6a2011, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 2ff0ed264fcae1a4cad2662fed860674, type: 3}
   m_Bones:
   - {fileID: 400030}
   - {fileID: 400026}

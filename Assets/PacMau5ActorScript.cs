@@ -5,7 +5,7 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 public class PacMau5ActorScript : MonoBehaviour
 {
-    public const float MoveDistancePerFrame = 1.0f / 15.0f;
+    public const float MoveDistancePerFrame = 1.0f / 8.0f;
 
     private static readonly Color NormalColor = new Color(255.0f, 0.0f, 0.0f);
     private static readonly Color SuperColor = new Color(0.0f, 0.0f, 255.0f);

@@ -3,7 +3,7 @@
 // ReSharper disable once CheckNamespace
 public class TriggerDollScript : MonoBehaviour
 {
-    public const float ScanDistance = 1.0f / 15.0f;
+    public const float ScanDistance = 1.0f / 12.0f;
     private GameObject left;
     private GameObject right;
     private GameObject front;
@@ -11,7 +11,7 @@ public class TriggerDollScript : MonoBehaviour
     public bool IsLeftClear()
     {
         var direction = transform.TransformDirection(Vector3.left);
-        if (Physics.Raycast(new Ray(this.left.transform.position, direction), ScanDistance))
+        if (Physics.Raycast(new Ray(this.left.transform.position, direction), ScanDistance + this.transform.localScale.x/2))
         {
             return false;
         }
@@ -29,7 +29,7 @@ public class TriggerDollScript : MonoBehaviour
     public bool IsRightClear()
     {
         var direction = transform.TransformDirection(Vector3.right);
-        if (Physics.Raycast(new Ray(this.right.transform.position, direction), ScanDistance))
+        if (Physics.Raycast(new Ray(this.right.transform.position, direction), ScanDistance + this.transform.localScale.x/2))
         {
             return false;
         }
