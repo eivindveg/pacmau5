@@ -7,8 +7,8 @@ public class PacMau5ActorScript : MonoBehaviour
 {
     public const float MoveDistancePerFrame = 1.0f / 8.0f;
 
-    private static readonly Color NormalColor = new Color(255.0f, 0.0f, 0.0f);
-    private static readonly Color SuperColor = new Color(0.0f, 0.0f, 255.0f);
+    private static readonly Color NormalColor = new Color(1.0f, 0.0f, 0.0f);
+    private static readonly Color SuperColor = new Color(0.0f, 0.0f, 1.0f);
 
     private readonly string[] possibleDirections =
     {
@@ -53,7 +53,7 @@ public class PacMau5ActorScript : MonoBehaviour
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
-            this.mau5Model = this.playerModel.transform.Find("pacmau5_v5").gameObject;
+            this.mau5Model = this.playerModel.transform.Find("pacmau5_v5/Pacmau5.1").gameObject;
         }
 
         this.triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
@@ -389,7 +389,7 @@ public class PacMau5ActorScript : MonoBehaviour
                 if (this.ghostKiller)
                 {
                     // TODO Implement ActorCommands.GhostKill
-                    // ActorCommands.GhostKill(other);
+                    ActorCommands.GhostKill(other.gameObject);
                 }
                 else
                 {
