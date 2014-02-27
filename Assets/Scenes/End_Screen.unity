@@ -581,8 +581,8 @@ MonoBehaviour:
   WinOrLoose: {fileID: 1342842877}
   EndState: 0
   ChangingLightsContainer: {fileID: 1148528342}
-  pacmau5_v5: {fileID: 787375482}
-  deaddeadmau5: {fileID: 130899593}
+  Pacmau5V5: {fileID: 787375482}
+  Deaddeadmau5: {fileID: 130899593}
   audio: {fileID: 0}
 --- !u!1 &448031780
 GameObject:
