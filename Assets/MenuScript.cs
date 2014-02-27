@@ -7,6 +7,7 @@ public class MenuScript : MonoBehaviour
     private float a = 1f;
     private bool last;
     private bool stop;
+	public static bool startAnim = false;
 
     // ReSharper disable once InconsistentNaming
     // ReSharper disable once UnusedMember.Local
@@ -27,7 +28,8 @@ public class MenuScript : MonoBehaviour
 
         if (this.last && !this.stop)
         {
-            var go = (GameObject)Instantiate(Resources.Load("menubg"));
+			startAnim = true;
+			var go = (GameObject)Instantiate(Resources.Load("menubg"));
             go.transform.position = new Vector3(0, 0, 0);
             go.guiTexture.pixelInset = new Rect ((Screen.width / 2) - (Screen.width / 2) / 2, (Screen.height / 2) - (Screen.height / 2) / 2, (Screen.width / 2) ,(Screen.height / 2));
             this.stop = true;
