@@ -23,8 +23,9 @@ public class EndScreenScores : MonoBehaviour
 
 		// Won or lost
 		if (ScoreScript.Lives >= 1) EndState = true;
-		if (ScoreScript.Lives == 0)
-						EndState = false;
+        if (ScoreScript.Lives == 0) { 
+				EndState = false;
+        }
 
 		if (EndState) {
 			WinOrLoose.text = "YOU WIN!";
