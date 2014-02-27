@@ -7,8 +7,8 @@ public class PacMau5ActorScript : MonoBehaviour
 {
     public const float MoveDistancePerFrame = 1.0f / 8.0f;
 
-    private static readonly Color NormalColor = new Color(1.0f, 0.0f, 0.0f);
-    private static readonly Color SuperColor = new Color(0.0f, 0.0f, 1.0f);
+    private static readonly Color NormalColor = new Color(0.89f, 0.0f, 0.13f);
+    private static readonly Color SuperColor = new Color(0.03f, 0.56f, 0.84f);
 
     private readonly string[] possibleDirections =
     {
@@ -34,6 +34,8 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private GameObject mau5Model;
 
+    private GameObject ghostModel;
+
     private TriggerDollScript triggerDoll;
 
     public int TeleportCooldown { get; set; }
@@ -56,6 +58,7 @@ public class PacMau5ActorScript : MonoBehaviour
         this.ammunition = 0;
         this.killTimer = this.tag == "Player" ? 180 : 0;
         this.playerModel = transform.Find("Body").gameObject;
+
         if (this.tag == "Player")
         {
             this.mau5Model = this.playerModel.transform.Find("pacmau5_v5/Pacmau5.1").gameObject;
@@ -418,14 +421,10 @@ public class PacMau5ActorScript : MonoBehaviour
             {
                 if (this.ghostKiller)
                 {
-                    // TODO Implement ActorCommands.GhostKill
                     ActorCommands.GhostKill(other.gameObject);
                 }
                 else
                 {
-                    Debug.Log("Attempting to kill player!");
-
-                    // TODO Implement ActorCommands.PlayerKill
                     ActorCommands.PlayerKill(this.gameObject);
                 }
             }
