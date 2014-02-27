@@ -52,14 +52,7 @@ public class PacMau5ActorScript : MonoBehaviour
     {
         this.blinkTimer = 0;
         this.ammunition = 0;
-        if (this.tag == "Player")
-        {
-            this.killTimer = 180;
-        }
-        else
-        {
-            this.killTimer = 0;
-        }
+        this.killTimer = this.tag == "Player" ? 180 : 0;
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
@@ -82,6 +75,7 @@ public class PacMau5ActorScript : MonoBehaviour
         {
             this.mau5Model.SetActive(false);
         }
+
         if (this.blinkTimer >= 60)
         {
             this.blinkTimer = 0;
@@ -114,6 +108,8 @@ public class PacMau5ActorScript : MonoBehaviour
                     this.ghostKiller = true;
                     this.mau5Model.renderer.material.color = SuperColor;
                 }
+
+                this.Blink();
             }
             else
             {
@@ -181,7 +177,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private void TurnLeft()
     {
-        Debug.Log("Turning left!");
         switch (this.direction)
         {
             case "North":
@@ -201,7 +196,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private void TurnRight()
     {
-        Debug.Log("Turning right!");
         switch (this.direction)
         {
             case "North":
