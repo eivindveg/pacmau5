@@ -1,22 +1,25 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class ScoreHUDScript : MonoBehaviour {
+// ReSharper disable once CheckNamespace
+// ReSharper disable once InconsistentNaming
+public class ScoreHUDScript : MonoBehaviour
+{
+    public GUIText currentScore;
+    public GUIText highScore;
+    public GUIText livesLeft;
 
-	public GUIText CurrentScore;
-	public GUIText HighScore;
-	public GUIText LivesLeft;
-
-	// Use this for initialization
-	void Start () {
-		HighScore.text = "HighScore " + ScoreScript.HighScore;
-
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		CurrentScore.text = "Current Score: " + ScoreScript.CurrentScore;
-		LivesLeft.text = "Lives: " + ScoreScript.Lives;
-	}
+    // Use this for initialization
+    // ReSharper disable once UnusedMember.Local
+    private void Start() 
+    {
+        this.highScore.text = "HighScore: " + ScoreScript.HighScore;
+    }
+    
+    // Update is called once per frame
+    // ReSharper disable once UnusedMember.Local
+    private void Update()
+    {
+        this.currentScore.text = "Current Score: " + ScoreScript.CurrentScore;
+        this.livesLeft.text = "Lives: " + ScoreScript.Lives;
+    }
 }
