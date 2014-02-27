@@ -27,6 +27,8 @@ public class PacMau5ActorScript : MonoBehaviour
     private int framesSinceLeftBlocked;
     private int framesSinceRightBlocked;
     private int ammunition;
+
+    private int blinkTimer;
     private int godModeFrames;
     private GameObject playerModel;
 
@@ -48,8 +50,16 @@ public class PacMau5ActorScript : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void Start()
     {
+        this.blinkTimer = 0;
         this.ammunition = 0;
-        this.killTimer = 180;
+        if (this.tag == "Player")
+        {
+            this.killTimer = 180;
+        }
+        else
+        {
+            this.killTimer = 0;
+        }
         this.playerModel = transform.Find("Body").gameObject;
         if (this.tag == "Player")
         {
@@ -61,6 +71,24 @@ public class PacMau5ActorScript : MonoBehaviour
         this.isPlayer = this.tag == "Player";
     }
 
+    private void Blink()
+    {
+        this.blinkTimer++;
+        if (this.blinkTimer < 20 || this.blinkTimer < 40)
+        {
+            this.mau5Model.SetActive(true);
+        }
+        else
+        {
+            this.mau5Model.SetActive(false);
+        }
+        if (this.blinkTimer >= 60)
+        {
+            this.blinkTimer = 0;
+            this.mau5Model.SetActive(true);
+        }
+    }
+
     // Update is called once per frame
     // ReSharper disable once UnusedMember.Local
     private void Update()
@@ -68,6 +96,7 @@ public class PacMau5ActorScript : MonoBehaviour
         if (this.killTimer >= 1)
         {
             this.killTimer--;
+            this.Blink();
         }
 
         if (this.isPlayer)
