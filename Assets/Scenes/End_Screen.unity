@@ -270,8 +270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c10178f45578444e8cbb1074ec17b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 1
-  ChangingLights: {fileID: 0}
 --- !u!1 &92001665
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,8 +355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c10178f45578444e8cbb1074ec17b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 1
-  ChangingLights: {fileID: 0}
 --- !u!108 &152244957
 Light:
   m_ObjectHideFlags: 0
@@ -924,7 +920,7 @@ Animator:
   m_GameObject: {fileID: 787375481}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 675e9cade39b821438478d77c52e5801, type: 3}
-  m_Controller: {fileID: 9100000, guid: bad86ac607e491245b03cd18228fbbaf, type: 2}
+  m_Controller: {fileID: 9100000, guid: 950925e88c36db94fb8186de968a877b, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -1181,8 +1177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c10178f45578444e8cbb1074ec17b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 1
-  ChangingLights: {fileID: 0}
 --- !u!108 &972869287
 Light:
   m_ObjectHideFlags: 0
@@ -1893,8 +1887,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c10178f45578444e8cbb1074ec17b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 1
-  ChangingLights: {fileID: 0}
 --- !u!108 &2010348339
 Light:
   m_ObjectHideFlags: 0
@@ -2087,7 +2079,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 675e9cade39b821438478d77c52e5801, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: bad86ac607e491245b03cd18228fbbaf, type: 2}
+      objectReference: {fileID: 9100000, guid: 950925e88c36db94fb8186de968a877b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 675e9cade39b821438478d77c52e5801, type: 3}
   m_RootGameObject: {fileID: 787375481}
