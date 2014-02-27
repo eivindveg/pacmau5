@@ -5,6 +5,8 @@ public class EndScreenScores : MonoBehaviour {
 
 	public GUIText Score;
 	public GUIText HighScore;
+	public GUIText LivesLeft;
+	public GUIText NewHighScore;
 	
 	
 	
@@ -12,9 +14,18 @@ public class EndScreenScores : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		int HighScoreReturn = ScoreScript.checkHighScore();
+
 		Score.text = "Score: " + ScoreScript.CurrentScore;
-		HighScore.text = "Highscore: " + HighScoreReturn;
+		if (ScoreScript.CurrentScore > ScoreScript.HighScore) {
+						ScoreScript.HighScore = ScoreScript.CurrentScore;
+						NewHighScore.text = "New High Score!";
+				}
+	
+
+		HighScore.text = "Highscore: " + ScoreScript.HighScore;
+
+		LivesLeft.text = "Lives Left: " + ScoreScript.Lives;
+
 		
 	}
 }

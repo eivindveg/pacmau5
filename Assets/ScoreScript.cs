@@ -20,6 +20,9 @@ public class ScoreScript : MonoBehaviour
 		if (CurrentScore > HighScore) HighScore = CurrentScore;
 		return HighScore;
 	}
+	public static int checkLives() {
+				return Lives;
+		}
 
     // Use this for initialization
     // ReSharper disable once UnusedMember.Local
