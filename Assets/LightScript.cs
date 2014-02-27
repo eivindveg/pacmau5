@@ -28,6 +28,7 @@ public class LightScript : MonoBehaviour
         {
             return;
         }
+
         float rndNumber = Random.Range(0, 5);
         if (Math.Abs(rndNumber) < 1)
         {
