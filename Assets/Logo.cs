@@ -38,7 +38,8 @@ public class Logo : MonoBehaviour {
 				if (alpha < 0)
 				{
 					stop = true;
-					showmenu=true;
+					showmenu = true;
+
 				}
 			}
 		}
