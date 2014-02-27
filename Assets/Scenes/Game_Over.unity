@@ -171,7 +171,7 @@ GUIText:
   m_GameObject: {fileID: 497013458}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: Gui Text
+  m_Text: Score
   m_Anchor: 4
   m_Alignment: 0
   m_PixelOffset: {x: 0, y: 0}
@@ -1104,7 +1104,7 @@ GUIText:
   m_GameObject: {fileID: 1960437945}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: Gui Text
+  m_Text: HighScore
   m_Anchor: 4
   m_Alignment: 0
   m_PixelOffset: {x: 0, y: 0}
