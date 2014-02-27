@@ -36,6 +36,8 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private TriggerDollScript triggerDoll;
 
+    public int TeleportCooldown { get; set; }
+
     public void AddAmmo(int amnt)
     {
         this.ammunition++;
@@ -87,6 +89,11 @@ public class PacMau5ActorScript : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void Update()
     {
+        if (this.TeleportCooldown >= 1)
+        {
+            this.TeleportCooldown--;
+        }
+
         if (this.killTimer >= 1)
         {
             this.killTimer--;
