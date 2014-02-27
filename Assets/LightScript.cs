@@ -1,35 +1,62 @@
-﻿using UnityEngine;
+﻿using System;
 using System.Collections;
+using UnityEngine;
 
-public class LightScript : MonoBehaviour {
+using Random = UnityEngine.Random;
 
-	public bool interval = true;
-	//Random rnd = new Random();
-	public Transform ChangingLights;
+// ReSharper disable once CheckNamespace
+public class LightScript : MonoBehaviour
+{
+    private bool interval = true;
 
-	// Use this for initialization
-	void Start () {
-		StartCoroutine(Interval());
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (interval) {
-			float rndNumber = (Random.Range(0,5));
-			if (rndNumber == 0) ChangingLights.light.color = Color.red;
-			if (rndNumber == 1) ChangingLights.light.color = Color.blue;
-			if (rndNumber == 2) ChangingLights.light.color = Color.white;
-			if (rndNumber == 3) ChangingLights.light.color = Color.yellow;
-			if (rndNumber == 4) ChangingLights.light.color = Color.green;
+    // Random rnd = new Random();
+    private Transform changingLights;
 
-			StartCoroutine(Interval());
-		}
-	}
+    // Use this for initialization
+    // ReSharper disable once UnusedMember.Local
+    private void Start()
+    {
+        this.StartCoroutine(this.Interval());
+        this.changingLights = this.transform;
+    }
 
-	IEnumerator Interval () {
-		interval = false;
-		yield return new WaitForSeconds ((float)0.3);
-		interval = true;
-		
-	}
+    // Update is called once per frame
+    // ReSharper disable once UnusedMember.Local
+    private void Update()
+    {
+        if (!this.interval)
+        {
+            return;
+        }
+        float rndNumber = Random.Range(0, 5);
+        if (Math.Abs(rndNumber) < 1)
+        {
+            this.changingLights.light.color = Color.red;
+        }
+        else if (Math.Abs(rndNumber - 1) < 1)
+        {
+            this.changingLights.light.color = Color.blue;
+        }
+        else if (Math.Abs(rndNumber - 2) < 1)
+        {
+            this.changingLights.light.color = Color.white;
+        }
+        else if (Math.Abs(rndNumber - 3) < 1)
+        {
+            this.changingLights.light.color = Color.yellow;
+        }
+        else if (Math.Abs(rndNumber - 4) < 1)
+        {
+            this.changingLights.light.color = Color.green;
+        }
+
+        this.StartCoroutine(this.Interval());
+    }
+
+    private IEnumerator Interval()
+    {
+        this.interval = false;
+        yield return new WaitForSeconds((float)0.3);
+        this.interval = true;
+    }
 }
