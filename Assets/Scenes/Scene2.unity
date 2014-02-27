@@ -300,7 +300,7 @@ GameObject:
   - 114: {fileID: 14158992}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,7 +753,7 @@ GameObject:
   - 114: {fileID: 40827078}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1003,7 +1003,7 @@ GameObject:
   - 114: {fileID: 48221961}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1463,7 +1463,7 @@ GameObject:
   - 114: {fileID: 72926827}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2051,7 +2051,7 @@ GameObject:
   - 114: {fileID: 100357755}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2203,7 +2203,7 @@ GameObject:
   - 114: {fileID: 101914635}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2257,7 +2257,7 @@ GameObject:
   - 114: {fileID: 107574347}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2409,7 +2409,7 @@ GameObject:
   - 114: {fileID: 130201531}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2463,7 +2463,7 @@ GameObject:
   - 114: {fileID: 133923004}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2573,7 +2573,7 @@ GameObject:
   - 114: {fileID: 139928853}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2683,7 +2683,7 @@ GameObject:
   - 114: {fileID: 151970131}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2789,7 +2789,7 @@ GameObject:
   - 114: {fileID: 155079686}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3161,7 +3161,7 @@ GameObject:
   - 114: {fileID: 167788316}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3371,7 +3371,7 @@ GameObject:
   - 114: {fileID: 174245530}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3541,7 +3541,7 @@ GameObject:
   - 114: {fileID: 183722918}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3595,7 +3595,7 @@ GameObject:
   - 114: {fileID: 185942491}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3779,7 +3779,7 @@ GameObject:
   - 114: {fileID: 190362152}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4657,7 +4657,7 @@ GameObject:
   - 114: {fileID: 228713347}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4769,7 +4769,7 @@ GameObject:
   - 114: {fileID: 235208926}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5069,7 +5069,7 @@ GameObject:
   - 114: {fileID: 245504757}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5123,7 +5123,7 @@ GameObject:
   - 114: {fileID: 245729168}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5177,7 +5177,7 @@ GameObject:
   - 114: {fileID: 247953254}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5539,7 +5539,7 @@ GameObject:
   - 114: {fileID: 260808078}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5593,7 +5593,7 @@ GameObject:
   - 114: {fileID: 267242407}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5883,7 +5883,7 @@ GameObject:
   - 114: {fileID: 288102579}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6151,7 +6151,7 @@ GameObject:
   - 114: {fileID: 299103093}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6553,7 +6553,7 @@ GameObject:
   - 114: {fileID: 318058294}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6699,7 +6699,7 @@ GameObject:
   - 114: {fileID: 323084156}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6753,7 +6753,7 @@ GameObject:
   - 114: {fileID: 324152608}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6807,7 +6807,7 @@ GameObject:
   - 114: {fileID: 324820720}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7055,7 +7055,7 @@ GameObject:
   - 114: {fileID: 333948773}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7339,7 +7339,7 @@ GameObject:
   - 114: {fileID: 353105148}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7423,7 +7423,7 @@ GameObject:
   - 114: {fileID: 353850445}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7564,7 +7564,7 @@ GameObject:
   - 114: {fileID: 362313899}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7756,7 +7756,7 @@ GameObject:
   - 114: {fileID: 366909516}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7988,7 +7988,7 @@ GameObject:
   - 114: {fileID: 378903881}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8030,6 +8030,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &383662948
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+  m_RootGameObject: {fileID: 2027883180}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &384443332
 GameObject:
   m_ObjectHideFlags: 0
@@ -8180,7 +8220,7 @@ GameObject:
   - 114: {fileID: 395884739}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8234,7 +8274,7 @@ GameObject:
   - 114: {fileID: 396300567}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8288,7 +8328,7 @@ GameObject:
   - 114: {fileID: 397585041}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8342,7 +8382,7 @@ GameObject:
   - 114: {fileID: 397628719}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8396,7 +8436,7 @@ GameObject:
   - 114: {fileID: 400963699}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8522,7 +8562,7 @@ GameObject:
   - 114: {fileID: 401883207}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8778,7 +8818,7 @@ GameObject:
   - 114: {fileID: 407870794}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8982,7 +9022,7 @@ GameObject:
   - 114: {fileID: 420201712}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9076,7 +9116,7 @@ GameObject:
   - 114: {fileID: 431040684}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9344,7 +9384,7 @@ GameObject:
   - 114: {fileID: 440672395}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9398,7 +9438,7 @@ GameObject:
   - 114: {fileID: 441580054}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9440,64 +9480,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &444109387
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 444109390}
-  - 33: {fileID: 444109389}
-  - 23: {fileID: 444109388}
-  m_Layer: 2
-  m_Name: Capsule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &444109388
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  m_GameObject: {fileID: 444109387}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
---- !u!33 &444109389
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  m_GameObject: {fileID: 444109387}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &444109390
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  m_GameObject: {fileID: 444109387}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
-  m_Children: []
-  m_Father: {fileID: 1790354536}
 --- !u!1 &444372734
 GameObject:
   m_ObjectHideFlags: 0
@@ -9568,7 +9550,7 @@ GameObject:
   - 114: {fileID: 445263651}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9760,7 +9742,7 @@ GameObject:
   - 114: {fileID: 465483766}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9934,7 +9916,7 @@ GameObject:
   - 114: {fileID: 468822730}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9988,7 +9970,7 @@ GameObject:
   - 114: {fileID: 473741148}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10128,6 +10110,78 @@ Prefab:
   m_RootGameObject: {fileID: 722091628}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &483438833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 483438834}
+  - 33: {fileID: 483438837}
+  - 65: {fileID: 483438836}
+  - 23: {fileID: 483438835}
+  m_Layer: 2
+  m_Name: FrontTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483438834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 483438833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: .5}
+  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
+  m_Children: []
+  m_Father: {fileID: 844790976}
+--- !u!23 &483438835
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 483438833}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &483438836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 483438833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &483438837
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 483438833}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &484938675
 GameObject:
   m_ObjectHideFlags: 0
@@ -10582,7 +10636,7 @@ GameObject:
   - 114: {fileID: 500193253}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10676,7 +10730,7 @@ GameObject:
   - 114: {fileID: 501645125}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10788,7 +10842,7 @@ GameObject:
   - 114: {fileID: 513488504}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10888,6 +10942,78 @@ MeshFilter:
   m_PrefabInternal: {fileID: 948805988}
   m_GameObject: {fileID: 517106760}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &520094059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 520094060}
+  - 114: {fileID: 520094063}
+  - 65: {fileID: 520094062}
+  - 54: {fileID: 520094061}
+  m_Layer: 2
+  m_Name: PlayerObject
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &520094060
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 520094059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .5, z: 1.5}
+  m_LocalScale: {x: 1.39999998, y: 1.39999998, z: 1.39999998}
+  m_Children:
+  - {fileID: 996385345}
+  - {fileID: 1121224346}
+  m_Father: {fileID: 0}
+--- !u!54 &520094061
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 520094059}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
+--- !u!65 &520094062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 520094059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .800000012, y: .800000012, z: .800000012}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &520094063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 520094059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073f3faa603bf0145ab540c66fe49f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &524407771
 GameObject:
   m_ObjectHideFlags: 0
@@ -10958,7 +11084,7 @@ GameObject:
   - 114: {fileID: 524926757}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11222,7 +11348,7 @@ GameObject:
   - 114: {fileID: 547323999}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11716,7 +11842,7 @@ GameObject:
   - 114: {fileID: 564605704}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11770,7 +11896,7 @@ GameObject:
   - 114: {fileID: 567513884}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11876,7 +12002,7 @@ GameObject:
   - 114: {fileID: 571534572}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11970,7 +12096,7 @@ GameObject:
   - 114: {fileID: 575638122}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12064,7 +12190,7 @@ GameObject:
   - 114: {fileID: 583400377}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12118,7 +12244,7 @@ GameObject:
   - 114: {fileID: 583925846}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12230,7 +12356,7 @@ GameObject:
   - 114: {fileID: 593892901}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12284,7 +12410,7 @@ GameObject:
   - 114: {fileID: 594885221}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12578,7 +12704,7 @@ GameObject:
   - 114: {fileID: 606278948}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12904,7 +13030,7 @@ GameObject:
   - 114: {fileID: 616348785}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13114,7 +13240,7 @@ GameObject:
   - 114: {fileID: 626159151}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13168,7 +13294,7 @@ GameObject:
   - 114: {fileID: 628269953}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13222,7 +13348,7 @@ GameObject:
   - 114: {fileID: 629769135}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13264,6 +13390,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &632861668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+  m_PrefabInternal: {fileID: 1363713272}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 632861669}
+  m_Layer: 0
+  m_Name: PlayerSpawn
+  m_TagString: PlayerSpawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632861669
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+  m_PrefabInternal: {fileID: 1363713272}
+  m_GameObject: {fileID: 632861668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &633782071
 GameObject:
   m_ObjectHideFlags: 0
@@ -13276,7 +13428,7 @@ GameObject:
   - 114: {fileID: 633782073}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13330,7 +13482,7 @@ GameObject:
   - 114: {fileID: 634529748}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13384,7 +13536,7 @@ GameObject:
   - 114: {fileID: 635722244}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13438,7 +13590,7 @@ GameObject:
   - 114: {fileID: 636615270}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13492,7 +13644,7 @@ GameObject:
   - 114: {fileID: 638185110}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13586,7 +13738,7 @@ GameObject:
   - 114: {fileID: 644909746}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13640,7 +13792,7 @@ GameObject:
   - 114: {fileID: 646462143}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13752,7 +13904,7 @@ GameObject:
   - 114: {fileID: 647832903}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14066,7 +14218,7 @@ GameObject:
   - 114: {fileID: 652093652}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14334,7 +14486,7 @@ GameObject:
   - 114: {fileID: 658332390}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14446,7 +14598,7 @@ GameObject:
   - 114: {fileID: 659376575}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14500,7 +14652,7 @@ GameObject:
   - 114: {fileID: 660912279}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14655,7 +14807,7 @@ GameObject:
   - 114: {fileID: 670084976}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14861,7 +15013,7 @@ GameObject:
   - 114: {fileID: 674551733}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14915,7 +15067,7 @@ GameObject:
   - 114: {fileID: 684444539}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14997,6 +15149,59 @@ Prefab:
   m_RootGameObject: {fileID: 1744445267}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &685671916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+  m_PrefabInternal: {fileID: 1674054219}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 685671919}
+  - 65: {fileID: 685671918}
+  - 114: {fileID: 685671917}
+  m_Layer: 2
+  m_Name: Teleporter
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &685671917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: cf8834a5a01ea4ee784a6dadca97d424,
+    type: 2}
+  m_PrefabInternal: {fileID: 1674054219}
+  m_GameObject: {fileID: 685671916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3aeeee596ba340d187aa1c9d5b2be4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &685671918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: cf8834a5a01ea4ee784a6dadca97d424,
+    type: 2}
+  m_PrefabInternal: {fileID: 1674054219}
+  m_GameObject: {fileID: 685671916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &685671919
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+  m_PrefabInternal: {fileID: 1674054219}
+  m_GameObject: {fileID: 685671916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .5, z: 9}
+  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &692272032
 GameObject:
   m_ObjectHideFlags: 0
@@ -15009,7 +15214,7 @@ GameObject:
   - 114: {fileID: 692272034}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15277,7 +15482,7 @@ GameObject:
   - 114: {fileID: 699016721}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15331,7 +15536,7 @@ GameObject:
   - 114: {fileID: 700543456}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15567,7 +15772,7 @@ GameObject:
   - 114: {fileID: 711819426}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15831,7 +16036,7 @@ GameObject:
   - 114: {fileID: 721869865}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15885,7 +16090,7 @@ GameObject:
   - 114: {fileID: 722091630}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16059,7 +16264,7 @@ GameObject:
   - 114: {fileID: 729246386}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16113,7 +16318,7 @@ GameObject:
   - 114: {fileID: 729839722}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16225,7 +16430,7 @@ GameObject:
   - 114: {fileID: 732037900}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16279,7 +16484,7 @@ GameObject:
   - 114: {fileID: 732320917}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16483,7 +16688,7 @@ GameObject:
   - 114: {fileID: 739342869}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16525,6 +16730,64 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &739850820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 739850821}
+  - 33: {fileID: 739850823}
+  - 23: {fileID: 739850822}
+  m_Layer: 2
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &739850821
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  m_GameObject: {fileID: 739850820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
+  m_Children: []
+  m_Father: {fileID: 963089691}
+--- !u!23 &739850822
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  m_GameObject: {fileID: 739850820}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &739850823
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  m_GameObject: {fileID: 739850820}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &745235577
 GameObject:
   m_ObjectHideFlags: 0
@@ -16537,7 +16800,7 @@ GameObject:
   - 114: {fileID: 745235579}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16643,7 +16906,7 @@ GameObject:
   - 114: {fileID: 763210784}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16813,7 +17076,7 @@ GameObject:
   - 114: {fileID: 770902181}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16867,7 +17130,7 @@ GameObject:
   - 114: {fileID: 771440123}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17207,7 +17470,7 @@ GameObject:
   - 114: {fileID: 786718778}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17261,7 +17524,7 @@ GameObject:
   - 114: {fileID: 792847009}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17343,6 +17606,32 @@ Prefab:
   m_RootGameObject: {fileID: 1443324124}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &797318203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 797318204}
+  m_Layer: 0
+  m_Name: Joint.3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797318204
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 797318203}
+  m_LocalRotation: {x: -2.71443079e-15, y: .873140275, z: -.487469018, w: -5.89863199e-15}
+  m_LocalPosition: {x: -.360222697, y: 2.2737367e-15, z: -.750543594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1815277635}
 --- !u!1 &802714485
 GameObject:
   m_ObjectHideFlags: 0
@@ -17427,7 +17716,7 @@ GameObject:
   - 114: {fileID: 804647552}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17481,7 +17770,7 @@ GameObject:
   - 114: {fileID: 806754665}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17985,6 +18274,48 @@ Prefab:
   m_RootGameObject: {fileID: 1013977480}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &844790975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 844790976}
+  - 114: {fileID: 844790977}
+  m_Layer: 0
+  m_Name: TriggerDoll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &844790976
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 844790975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1914866060}
+  - {fileID: 1173253003}
+  - {fileID: 483438834}
+  m_Father: {fileID: 996385345}
+--- !u!114 &844790977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 844790975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e629ac6ddcb0639449becb041f44d3a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &849441073
 GameObject:
   m_ObjectHideFlags: 0
@@ -17997,7 +18328,7 @@ GameObject:
   - 114: {fileID: 849441075}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18051,7 +18382,7 @@ GameObject:
   - 114: {fileID: 856094635}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18341,7 +18672,7 @@ GameObject:
   - 114: {fileID: 862823699}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18749,7 +19080,7 @@ GameObject:
   - 114: {fileID: 870789422}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19013,7 +19344,7 @@ GameObject:
   - 114: {fileID: 879532445}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19303,7 +19634,7 @@ GameObject:
   - 114: {fileID: 890919249}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19345,6 +19676,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &893740097
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+  m_RootGameObject: {fileID: 1282238936}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &895242690
 Prefab:
   m_ObjectHideFlags: 0
@@ -19362,7 +19737,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 21c839966e59a4f5ea5b3103b4f890b6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 11.75
+      value: 17.75
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 21c839966e59a4f5ea5b3103b4f890b6, type: 2}
       propertyPath: m_LocalRotation.x
@@ -19940,7 +20315,7 @@ GameObject:
   - 114: {fileID: 920874636}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20106,7 +20481,7 @@ GameObject:
   - 114: {fileID: 930126889}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20218,7 +20593,7 @@ GameObject:
   - 114: {fileID: 935046044}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20330,7 +20705,7 @@ GameObject:
   - 114: {fileID: 938385005}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20424,7 +20799,7 @@ GameObject:
   - 114: {fileID: 939457263}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20558,7 +20933,7 @@ GameObject:
   - 114: {fileID: 941551036}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20670,7 +21045,7 @@ GameObject:
   - 114: {fileID: 944496361}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20844,7 +21219,7 @@ GameObject:
   - 114: {fileID: 954442615}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20898,7 +21273,7 @@ GameObject:
   - 114: {fileID: 955618847}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20952,7 +21327,7 @@ GameObject:
   - 114: {fileID: 958357793}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21034,6 +21409,60 @@ Prefab:
   m_RootGameObject: {fileID: 1908125721}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &963089690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 963089691}
+  - 65: {fileID: 963089693}
+  - 114: {fileID: 963089692}
+  m_Layer: 2
+  m_Name: ScorePill
+  m_TagString: ScorePill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963089691
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  m_GameObject: {fileID: 963089690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.6786375, y: 6.95004272, z: 12.7474518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 739850821}
+  m_Father: {fileID: 1886384720}
+--- !u!114 &963089692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  m_GameObject: {fileID: 963089690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f331ab468f9ec44b13463502c6271b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &963089693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980480424}
+  m_GameObject: {fileID: 963089690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &966165412
 GameObject:
   m_ObjectHideFlags: 0
@@ -21046,7 +21475,7 @@ GameObject:
   - 114: {fileID: 966165414}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21100,7 +21529,7 @@ GameObject:
   - 114: {fileID: 972368502}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21598,6 +22027,66 @@ Prefab:
   m_RootGameObject: {fileID: 935046042}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &996385344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 996385345}
+  - 33: {fileID: 996385347}
+  - 23: {fileID: 996385346}
+  m_Layer: 2
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &996385345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 996385344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1135414552}
+  - {fileID: 844790976}
+  m_Father: {fileID: 520094060}
+--- !u!23 &996385346
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 996385344}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &996385347
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 996385344}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &997921374
 Prefab:
   m_ObjectHideFlags: 0
@@ -21702,7 +22191,7 @@ GameObject:
   - 114: {fileID: 1002292975}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22036,7 +22525,7 @@ GameObject:
   - 114: {fileID: 1011352538}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22130,7 +22619,7 @@ GameObject:
   - 114: {fileID: 1013977482}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22750,7 +23239,7 @@ GameObject:
   - 114: {fileID: 1061797071}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22920,7 +23409,7 @@ GameObject:
   - 114: {fileID: 1070315783}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22974,7 +23463,7 @@ GameObject:
   - 114: {fileID: 1071352717}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23268,7 +23757,7 @@ GameObject:
   - 114: {fileID: 1079127943}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23414,7 +23903,7 @@ GameObject:
   - 114: {fileID: 1085003920}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23526,7 +24015,7 @@ GameObject:
   - 114: {fileID: 1091237071}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23936,7 +24425,7 @@ GameObject:
   - 114: {fileID: 1107999370}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24174,6 +24663,90 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1110273440}
   m_GameObject: {fileID: 1118007096}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1121224345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1121224346}
+  - 20: {fileID: 1121224350}
+  - 92: {fileID: 1121224349}
+  - 124: {fileID: 1121224348}
+  - 81: {fileID: 1121224347}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121224346
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1121224345}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: .561243773, y: .561243773, z: .561243773}
+  m_Children: []
+  m_Father: {fileID: 520094060}
+--- !u!81 &1121224347
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1121224345}
+  m_Enabled: 1
+--- !u!124 &1121224348
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 12400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1121224345}
+  m_Enabled: 1
+--- !u!92 &1121224349
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9200000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1121224345}
+  m_Enabled: 1
+--- !u!20 &1121224350
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2000000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1121224345}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+  m_OcclusionCulling: 1
 --- !u!1 &1130927813
 GameObject:
   m_ObjectHideFlags: 0
@@ -24186,7 +24759,7 @@ GameObject:
   - 114: {fileID: 1130927815}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24240,7 +24813,7 @@ GameObject:
   - 114: {fileID: 1132775553}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24282,6 +24855,65 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1135414551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1135414552}
+  - 95: {fileID: 1135414554}
+  - 114: {fileID: 1135414553}
+  m_Layer: 0
+  m_Name: pacmau5_v5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1135414552
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1135414551}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children:
+  - {fileID: 1314403057}
+  - {fileID: 1186799272}
+  m_Father: {fileID: 996385345}
+--- !u!114 &1135414553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1135414551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8572e7b6eb1d7e440a52dffe40705364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1135414554}
+  obj: {fileID: 520094059}
+--- !u!95 &1135414554
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1135414551}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 675e9cade39b821438478d77c52e5801, type: 3}
+  m_Controller: {fileID: 9100000, guid: a9554e7453d4e474ba97638df2a05d70, type: 2}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &1138210435
 GameObject:
   m_ObjectHideFlags: 0
@@ -24294,7 +24926,7 @@ GameObject:
   - 114: {fileID: 1138210437}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24406,7 +25038,7 @@ GameObject:
   - 114: {fileID: 1145247706}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24460,7 +25092,7 @@ GameObject:
   - 114: {fileID: 1149446112}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24514,7 +25146,7 @@ GameObject:
   - 114: {fileID: 1149683912}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24750,7 +25382,7 @@ GameObject:
   - 114: {fileID: 1166142840}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24937,7 +25569,7 @@ GameObject:
   - 114: {fileID: 1172566978}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24979,6 +25611,78 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1173253002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1173253003}
+  - 33: {fileID: 1173253006}
+  - 65: {fileID: 1173253005}
+  - 23: {fileID: 1173253004}
+  m_Layer: 2
+  m_Name: LeftTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1173253003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1173253002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.5, y: 0, z: -.100000001}
+  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
+  m_Children: []
+  m_Father: {fileID: 844790976}
+--- !u!23 &1173253004
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1173253002}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &1173253005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1173253002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1173253006
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1173253002}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1177216174
 Prefab:
   m_ObjectHideFlags: 0
@@ -25131,6 +25835,73 @@ Prefab:
   m_RootGameObject: {fileID: 1616212961}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1186799271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1186799272}
+  m_Layer: 0
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1186799272
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1186799271}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: .729723573, y: -.0170723498, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1897159800}
+  m_Father: {fileID: 1135414552}
+--- !u!1001 &1190297383
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_RootGameObject: {fileID: 520094059}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &1190617329
 Prefab:
   m_ObjectHideFlags: 0
@@ -25263,7 +26034,7 @@ GameObject:
   - 114: {fileID: 1208470643}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25455,7 +26226,7 @@ GameObject:
   - 114: {fileID: 1225515854}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25837,7 +26608,7 @@ GameObject:
   - 114: {fileID: 1238981058}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26199,7 +26970,7 @@ GameObject:
   - 114: {fileID: 1246159426}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26383,7 +27154,7 @@ GameObject:
   - 114: {fileID: 1249452638}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26491,7 +27262,7 @@ GameObject:
   - 114: {fileID: 1254367373}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26697,7 +27468,7 @@ GameObject:
   - 114: {fileID: 1263746074}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26751,7 +27522,7 @@ GameObject:
   - 114: {fileID: 1264718205}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26995,7 +27766,7 @@ GameObject:
   - 114: {fileID: 1275745547}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27049,7 +27820,7 @@ GameObject:
   - 114: {fileID: 1277385745}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27131,6 +27902,59 @@ Prefab:
   m_RootGameObject: {fileID: 431040682}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1282238936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+  m_PrefabInternal: {fileID: 893740097}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1282238939}
+  - 65: {fileID: 1282238938}
+  - 114: {fileID: 1282238937}
+  m_Layer: 2
+  m_Name: Teleporter
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1282238937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: cf8834a5a01ea4ee784a6dadca97d424,
+    type: 2}
+  m_PrefabInternal: {fileID: 893740097}
+  m_GameObject: {fileID: 1282238936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3aeeee596ba340d187aa1c9d5b2be4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1282238938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: cf8834a5a01ea4ee784a6dadca97d424,
+    type: 2}
+  m_PrefabInternal: {fileID: 893740097}
+  m_GameObject: {fileID: 1282238936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1282238939
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+  m_PrefabInternal: {fileID: 893740097}
+  m_GameObject: {fileID: 1282238936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .5, z: -14}
+  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1282679893
 GameObject:
   m_ObjectHideFlags: 0
@@ -27143,7 +27967,7 @@ GameObject:
   - 114: {fileID: 1282679895}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27317,7 +28141,7 @@ GameObject:
   - 114: {fileID: 1294355204}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27371,7 +28195,7 @@ GameObject:
   - 114: {fileID: 1294659602}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27541,7 +28365,7 @@ GameObject:
   - 114: {fileID: 1298985117}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27595,7 +28419,7 @@ GameObject:
   - 114: {fileID: 1301538054}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27735,6 +28559,76 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1419777664}
   m_GameObject: {fileID: 1313833186}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1314403056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1314403057}
+  - 137: {fileID: 1314403058}
+  m_Layer: 0
+  m_Name: Pacmau5.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314403057
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1314403056}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: .0269483328, y: .430472851, z: -7.455521e-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1853883286}
+  m_Father: {fileID: 1135414552}
+--- !u!137 &1314403058
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1314403056}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 33bb683b6e95b7148a9c7715a2f9021b, type: 2}
+  - {fileID: 2100000, guid: e41a043553680d242a5840d55971a8c8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 675e9cade39b821438478d77c52e5801, type: 3}
+  m_Bones:
+  - {fileID: 1186799272}
+  - {fileID: 1897159800}
+  - {fileID: 1567296119}
+  - {fileID: 1333043449}
+  - {fileID: 1815277635}
+  - {fileID: 797318204}
+  - {fileID: 1651174839}
+  - {fileID: 1402323030}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1186799272}
+  m_AABB:
+    m_Center: {x: -.461875439, y: .352178156, z: .00352048874}
+    m_Extent: {x: 1.71086907, y: 1.70917845, z: 1.66932011}
+  m_DirtyAABB: 0
 --- !u!1 &1315186731
 GameObject:
   m_ObjectHideFlags: 0
@@ -27747,7 +28641,7 @@ GameObject:
   - 114: {fileID: 1315186733}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28017,6 +28911,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2030690966}
   m_GameObject: {fileID: 1329377891}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1333043448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1333043449}
+  m_Layer: 0
+  m_Name: Joint.1.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1333043449
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1333043448}
+  m_LocalRotation: {x: .0234630983, y: .706717432, z: .0236100312, w: .706712544}
+  m_LocalPosition: {x: 2.75109102e-07, y: 1.08006692, z: -.343917429}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1815277635}
+  - {fileID: 1651174839}
+  m_Father: {fileID: 1897159800}
 --- !u!1 &1334800791
 GameObject:
   m_ObjectHideFlags: 0
@@ -28199,7 +29121,7 @@ GameObject:
   - 114: {fileID: 1343682908}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28253,7 +29175,7 @@ GameObject:
   - 114: {fileID: 1350711646}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28307,7 +29229,7 @@ GameObject:
   - 114: {fileID: 1350847099}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28361,7 +29283,7 @@ GameObject:
   - 114: {fileID: 1352756275}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28593,6 +29515,46 @@ Prefab:
   m_RootGameObject: {fileID: 245146976}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1001 &1363713272
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 880e9dbb8a371c04c9a86d7e320efdf3, type: 2}
+  m_RootGameObject: {fileID: 632861668}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &1364422156
 Prefab:
   m_ObjectHideFlags: 0
@@ -28645,7 +29607,7 @@ GameObject:
   - 114: {fileID: 1365781812}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29233,6 +30195,32 @@ Prefab:
   m_RootGameObject: {fileID: 2128170554}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1402323029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1402323030}
+  m_Layer: 0
+  m_Name: Joint.3.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1402323030
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1402323029}
+  m_LocalRotation: {x: -.496714681, y: 1.1509274e-15, z: 6.57436586e-16, w: .867913902}
+  m_LocalPosition: {x: .360222697, y: 2.84217088e-16, z: -.81206435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1651174839}
 --- !u!1 &1404507645
 GameObject:
   m_ObjectHideFlags: 0
@@ -29245,7 +30233,7 @@ GameObject:
   - 114: {fileID: 1404507647}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29357,7 +30345,7 @@ GameObject:
   - 114: {fileID: 1407424699}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29737,7 +30725,7 @@ GameObject:
   - 114: {fileID: 1417528509}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29791,7 +30779,7 @@ GameObject:
   - 114: {fileID: 1418056458}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30175,7 +31163,7 @@ GameObject:
   - 114: {fileID: 1437566573}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30385,7 +31373,7 @@ GameObject:
   - 114: {fileID: 1443134160}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30439,7 +31427,7 @@ GameObject:
   - 114: {fileID: 1443324126}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30821,7 +31809,7 @@ GameObject:
   - 114: {fileID: 1463429741}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30875,7 +31863,7 @@ GameObject:
   - 114: {fileID: 1463945597}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31045,7 +32033,7 @@ GameObject:
   - 114: {fileID: 1473401401}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31099,7 +32087,7 @@ GameObject:
   - 114: {fileID: 1476188681}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31211,7 +32199,7 @@ GameObject:
   - 114: {fileID: 1480128108}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31381,7 +32369,7 @@ GameObject:
   - 114: {fileID: 1489026873}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31689,7 +32677,7 @@ GameObject:
   - 114: {fileID: 1499925179}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31795,7 +32783,7 @@ GameObject:
   - 114: {fileID: 1511824407}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31849,7 +32837,7 @@ GameObject:
   - 114: {fileID: 1515070318}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32117,7 +33105,7 @@ GameObject:
   - 114: {fileID: 1535247442}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32719,7 +33707,7 @@ GameObject:
   - 114: {fileID: 1558588483}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32873,6 +33861,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1567296118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1567296119}
+  m_Layer: 0
+  m_Name: Joint.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1567296119
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1567296118}
+  m_LocalRotation: {x: -2.77555756e-17, y: 6.16297582e-33, z: -3.08148791e-33, w: 1}
+  m_LocalPosition: {x: 2.01678783e-16, y: 0, z: -1.23505449}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1897159800}
 --- !u!1 &1568595084
 GameObject:
   m_ObjectHideFlags: 0
@@ -33153,7 +34167,7 @@ GameObject:
   - 114: {fileID: 1578623085}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33265,7 +34279,7 @@ GameObject:
   - 114: {fileID: 1581712430}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33377,7 +34391,7 @@ GameObject:
   - 114: {fileID: 1583149120}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33685,7 +34699,7 @@ GameObject:
   - 114: {fileID: 1592280183}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33739,7 +34753,7 @@ GameObject:
   - 114: {fileID: 1595893450}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33885,7 +34899,7 @@ GameObject:
   - 114: {fileID: 1615831745}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33939,7 +34953,7 @@ GameObject:
   - 114: {fileID: 1616212963}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34109,7 +35123,7 @@ GameObject:
   - 114: {fileID: 1620635578}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34353,7 +35367,7 @@ GameObject:
   - 114: {fileID: 1635267058}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34447,7 +35461,7 @@ GameObject:
   - 114: {fileID: 1640518533}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34693,6 +35707,33 @@ Prefab:
   m_RootGameObject: {fileID: 2129795415}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1651174838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1651174839}
+  m_Layer: 0
+  m_Name: Joint.2.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1651174839
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1651174838}
+  m_LocalRotation: {x: -.223931089, y: .826044619, z: -.499191642, w: .135325059}
+  m_LocalPosition: {x: -.443172485, y: -.269025594, z: .631265044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1402323030}
+  m_Father: {fileID: 1333043449}
 --- !u!1001 &1660842821
 Prefab:
   m_ObjectHideFlags: 0
@@ -35077,6 +36118,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 150664918}
   m_GameObject: {fileID: 1673613423}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1674054219
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cf8834a5a01ea4ee784a6dadca97d424, type: 2}
+  m_RootGameObject: {fileID: 685671916}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1676590004
 GameObject:
   m_ObjectHideFlags: 0
@@ -35089,7 +36174,7 @@ GameObject:
   - 114: {fileID: 1676590006}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35755,7 +36840,7 @@ GameObject:
   - 114: {fileID: 1696474380}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35867,7 +36952,7 @@ GameObject:
   - 114: {fileID: 1699519457}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36019,7 +37104,7 @@ GameObject:
   - 114: {fileID: 1705696616}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36171,7 +37256,7 @@ GameObject:
   - 114: {fileID: 1716739223}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36357,7 +37442,7 @@ GameObject:
   - 114: {fileID: 1740865378}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36451,7 +37536,7 @@ GameObject:
   - 114: {fileID: 1744445269}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36785,7 +37870,7 @@ GameObject:
   - 114: {fileID: 1751590386}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36839,7 +37924,7 @@ GameObject:
   - 114: {fileID: 1753438494}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37057,7 +38142,7 @@ Transform:
   m_PrefabInternal: {fileID: 895242690}
   m_GameObject: {fileID: 1765880194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.6999998, y: 7, z: 11.75}
+  m_LocalPosition: {x: 11.6999998, y: 7, z: 17.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 405779727}
@@ -37361,7 +38446,7 @@ GameObject:
   - 114: {fileID: 1777416304}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37443,60 +38528,6 @@ Prefab:
   m_RootGameObject: {fileID: 107574345}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &1790354535
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1790354536}
-  - 65: {fileID: 1790354538}
-  - 114: {fileID: 1790354537}
-  m_Layer: 2
-  m_Name: ScorePill
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1790354536
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  m_GameObject: {fileID: 1790354535}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.6786375, y: 6.95004272, z: 17.7474518}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 444109390}
-  m_Father: {fileID: 1886384720}
---- !u!114 &1790354537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  m_GameObject: {fileID: 1790354535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3f331ab468f9ec44b13463502c6271b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &1790354538
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6500000, guid: 3560432b8066c84469cdd4fe1da4d6c5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1797834876}
-  m_GameObject: {fileID: 1790354535}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1791345939
 Prefab:
   m_ObjectHideFlags: 0
@@ -37619,7 +38650,7 @@ GameObject:
   - 114: {fileID: 1797393300}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37661,46 +38692,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &1797834876
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1886384720}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 11.6786375
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 6.95004272
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 17.7474518
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
-  m_RootGameObject: {fileID: 1790354535}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &1799111780
 GameObject:
   m_ObjectHideFlags: 0
@@ -37889,6 +38880,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 951295525}
   m_GameObject: {fileID: 1807817586}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1815277634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1815277635}
+  m_Layer: 0
+  m_Name: Joint.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815277635
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1815277634}
+  m_LocalRotation: {x: .450318843, y: .122076206, z: .231420413, w: .853671432}
+  m_LocalPosition: {x: -.447396219, y: -.261807799, z: -.665915191}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 797318204}
+  m_Father: {fileID: 1333043449}
 --- !u!1 &1830909777
 GameObject:
   m_ObjectHideFlags: 0
@@ -38321,7 +39339,7 @@ GameObject:
   - 114: {fileID: 1846199358}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38403,6 +39421,32 @@ Prefab:
   m_RootGameObject: {fileID: 1855151403}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1853883285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1853883286}
+  m_Layer: 0
+  m_Name: Null
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1853883286
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1853883285}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1314403057}
 --- !u!1 &1855151403
 GameObject:
   m_ObjectHideFlags: 0
@@ -38415,7 +39459,7 @@ GameObject:
   - 114: {fileID: 1855151405}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38469,7 +39513,7 @@ GameObject:
   - 114: {fileID: 1855262866}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38634,7 +39678,7 @@ GameObject:
   - 114: {fileID: 1860192639}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38780,7 +39824,7 @@ GameObject:
   - 114: {fileID: 1865717236}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38874,7 +39918,7 @@ GameObject:
   - 114: {fileID: 1869379470}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39500,7 +40544,6 @@ Transform:
   - {fileID: 465483765}
   - {fileID: 1716739222}
   - {fileID: 107574346}
-  - {fileID: 1790354536}
   - {fileID: 575638121}
   - {fileID: 1071352716}
   - {fileID: 1480128107}
@@ -39520,6 +40563,7 @@ Transform:
   - {fileID: 644909745}
   - {fileID: 267242406}
   - {fileID: 1294355203}
+  - {fileID: 963089691}
   - {fileID: 1238981057}
   - {fileID: 646462142}
   - {fileID: 1620635577}
@@ -39556,7 +40600,7 @@ GameObject:
   - 114: {fileID: 1887342702}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39650,7 +40694,7 @@ GameObject:
   - 114: {fileID: 1889678687}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39704,7 +40748,7 @@ GameObject:
   - 114: {fileID: 1889837069}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39798,6 +40842,34 @@ Prefab:
   m_RootGameObject: {fileID: 926859018}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1897159799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1897159800}
+  m_Layer: 0
+  m_Name: Joint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1897159800
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1897159799}
+  m_LocalRotation: {x: -.191255316, y: .680750608, z: .191255316, w: .680750608}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1567296119}
+  - {fileID: 1333043449}
+  m_Father: {fileID: 1186799272}
 --- !u!1001 &1898512874
 Prefab:
   m_ObjectHideFlags: 0
@@ -40014,7 +41086,7 @@ GameObject:
   - 114: {fileID: 1908125723}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40160,6 +41232,78 @@ Prefab:
   m_RootGameObject: {fileID: 406316902}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1914866059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1914866060}
+  - 33: {fileID: 1914866063}
+  - 65: {fileID: 1914866062}
+  - 23: {fileID: 1914866061}
+  m_Layer: 2
+  m_Name: RightTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914866060
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94, type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1914866059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: 0, z: -.100000001}
+  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
+  m_Children: []
+  m_Father: {fileID: 844790976}
+--- !u!23 &1914866061
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1914866059}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &1914866062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1914866059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1914866063
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 69b28f0d592ff3a4c85e5cf4d82dea94,
+    type: 2}
+  m_PrefabInternal: {fileID: 1190297383}
+  m_GameObject: {fileID: 1914866059}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1915196327
 GameObject:
   m_ObjectHideFlags: 0
@@ -40172,7 +41316,7 @@ GameObject:
   - 114: {fileID: 1915196329}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40578,7 +41722,7 @@ GameObject:
   - 114: {fileID: 1944728685}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40632,7 +41776,7 @@ GameObject:
   - 114: {fileID: 1948638468}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40686,7 +41830,7 @@ GameObject:
   - 114: {fileID: 1948938319}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41120,6 +42264,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1223168578}
   m_GameObject: {fileID: 1976860563}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1980480424
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1886384720}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 11.6786375
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.95004272
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 12.7474518
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3560432b8066c84469cdd4fe1da4d6c5, type: 2}
+  m_RootGameObject: {fileID: 963089690}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1982193222
 GameObject:
   m_ObjectHideFlags: 0
@@ -41262,7 +42446,7 @@ GameObject:
   - 114: {fileID: 1988476413}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41588,7 +42772,7 @@ GameObject:
   - 114: {fileID: 1996730950}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41860,7 +43044,7 @@ GameObject:
   - 114: {fileID: 2008752644}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41968,7 +43152,7 @@ GameObject:
   - 114: {fileID: 2011924874}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42022,7 +43206,7 @@ GameObject:
   - 114: {fileID: 2012399186}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42192,7 +43376,7 @@ GameObject:
   - 114: {fileID: 2024512889}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42234,6 +43418,45 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2027883180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+  m_PrefabInternal: {fileID: 383662948}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2027883182}
+  - 114: {fileID: 2027883181}
+  m_Layer: 0
+  m_Name: GhostSpawn
+  m_TagString: GhostSpawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2027883181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fa6222a9df28d20429a7678b07b18677,
+    type: 2}
+  m_PrefabInternal: {fileID: 383662948}
+  m_GameObject: {fileID: 2027883180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cf231ced9dc824a9a4a1f06341c47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2027883182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: fa6222a9df28d20429a7678b07b18677, type: 2}
+  m_PrefabInternal: {fileID: 383662948}
+  m_GameObject: {fileID: 2027883180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .25, y: .5, z: -2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1001 &2030690966
 Prefab:
   m_ObjectHideFlags: 0
@@ -42464,7 +43687,7 @@ GameObject:
   - 114: {fileID: 2047112063}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42518,7 +43741,7 @@ GameObject:
   - 114: {fileID: 2048907582}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42612,7 +43835,7 @@ GameObject:
   - 114: {fileID: 2049741835}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42746,7 +43969,7 @@ GameObject:
   - 114: {fileID: 2056635388}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42800,7 +44023,7 @@ GameObject:
   - 114: {fileID: 2057184667}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42974,7 +44197,7 @@ GameObject:
   - 114: {fileID: 2062111280}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43354,7 +44577,7 @@ GameObject:
   - 114: {fileID: 2069412236}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43506,7 +44729,7 @@ GameObject:
   - 114: {fileID: 2074405284}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43618,7 +44841,7 @@ GameObject:
   - 114: {fileID: 2075674575}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43672,7 +44895,7 @@ GameObject:
   - 114: {fileID: 2083700906}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44000,7 +45223,7 @@ GameObject:
   - 114: {fileID: 2103223695}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44112,7 +45335,7 @@ GameObject:
   - 114: {fileID: 2117844186}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44336,7 +45559,7 @@ GameObject:
   - 114: {fileID: 2129795417}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44578,7 +45801,7 @@ GameObject:
   - 114: {fileID: 2136608625}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44632,7 +45855,7 @@ GameObject:
   - 114: {fileID: 2137946671}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44766,7 +45989,7 @@ GameObject:
   - 114: {fileID: 2139342877}
   m_Layer: 2
   m_Name: ScorePill
-  m_TagString: Untagged
+  m_TagString: ScorePill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
