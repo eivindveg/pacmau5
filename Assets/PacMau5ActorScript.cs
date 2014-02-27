@@ -97,7 +97,7 @@ public class PacMau5ActorScript : MonoBehaviour
         }
 
         var localDirection = this.RegisterDirection() ?? this.direction;
-        this.Rotate(direction);
+        this.Rotate(this.direction);
         this.Move(localDirection);
         if (this.tag == "Player")
         {
@@ -202,7 +202,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
         if (!this.isPlayer)
         {
-
             if (Random.Range(0, 100) < 1)
             {
                 if (Random.Range(0, 2) < 1)
@@ -304,57 +303,59 @@ public class PacMau5ActorScript : MonoBehaviour
                 // Debug.Log("This is left");
                 if (this.triggerDoll.IsLeftClear())
                 {
-//                    Debug.Log("Turning left");
+                    // Debug.Log("Turning left");
                     return localDirection;
                 }
+
                 return null;
             }
-            else 
+
+            // Debug.Log("Checking if this is right");
+            if (this.IsRight(localDirection))
             {
-                // Debug.Log("Checking if this is right");
-                if (this.IsRight(localDirection))
+                // Debug.Log("This is right");
+                if (this.triggerDoll.IsRightClear())
                 {
-                    // Debug.Log("This is right");
-                    if (this.triggerDoll.IsRightClear())
-                    {
-                        // Debug.Log("Can turn right!");
-                        return localDirection;
-                    }
-                    return null;
+                    // Debug.Log("Can turn right!");
+                    return localDirection;
                 }
+
+                return null;
             }
-            
+
             return localDirection;
         }
+
         if (!this.triggerDoll.IsClearForward())
         {
             this.direction = null;
         }
-        if (this.direction == null) 
-        { 
-        var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
-        switch (dirAsInt)
+
+        if (this.direction == null)
         {
-            case 0:
-                localDirection = "North";
-                break;
-            case 1:
-                localDirection = "South";
-                break;
-            case 2:
-                localDirection = "East";
-                break;
-            case 3:
-                localDirection = "West";
-                break;
-            default:
-                return null;
+            var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
+            switch (dirAsInt)
+            {
+                case 0:
+                    localDirection = "North";
+                    break;
+                case 1:
+                    localDirection = "South";
+                    break;
+                case 2:
+                    localDirection = "East";
+                    break;
+                case 3:
+                    localDirection = "West";
+                    break;
+                default:
+                    return null;
+            }
+
+            this.direction = localDirection;
+            this.Rotate(this.direction);
         }
 
-        this.direction = localDirection;
-        this.Rotate(this.direction);
-        
-        }
         return this.direction;
     }
 
