@@ -28,7 +28,7 @@ public class ActorCommands : MonoBehaviour
             Destroy(player);
             if (ScoreScript.Lives <= 0)
             {
-                // TODO ADD GAME-OVER SEQUENCE!
+                Application.LoadLevel(4);
             }
             else
             {
