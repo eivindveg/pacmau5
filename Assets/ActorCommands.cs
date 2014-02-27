@@ -47,6 +47,12 @@ public class ActorCommands : MonoBehaviour
         {
             if (ghosts.Remove(ghost))
             {
+                ScoreScript.CurrentScore += 10;
+                if (GhostSpawnTimer >= 1)
+                {
+                    ScoreScript.CurrentScore += 10 * (MaxGhosts - ghosts.Count);
+                }
+
                 Destroy(ghost);
                 ResetGhostTimer();
             }
