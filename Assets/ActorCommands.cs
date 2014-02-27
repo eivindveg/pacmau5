@@ -32,10 +32,10 @@ public class ActorCommands : MonoBehaviour
             }
             else
             {
-                var spawnPosition = GameObject.FindGameObjectWithTag("PlayerSpawn").transform.position;
+                // var spawnPosition = GameObject.FindGameObjectWithTag("PlayerSpawn").transform.position;
+                var spawnerScript = GameObject.FindGameObjectWithTag("PlayerSpawn").GetComponent<PlayerSpawnScript>();
                 // ReSharper disable once RedundantNameQualifier
-                var newPlayer = (GameObject)Instantiate(Resources.Load("Actors/PlayerObject"));
-                newPlayer.transform.position = spawnPosition;
+                spawnerScript.SpawnPlayer();
             }
         }
     }
