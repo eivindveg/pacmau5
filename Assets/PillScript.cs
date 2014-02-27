@@ -16,7 +16,6 @@ public class PillScript : MonoBehaviour
             if (this.tag == "ScorePill")
             {
                 ScoreScript.CurrentScore++;
-                Debug.Log(ScoreScript.CurrentScore);
                 PillMonitor.EatPill(this.gameObject);
             }
             else if (this.tag == "AmmoPill")
