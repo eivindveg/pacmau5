@@ -390,7 +390,7 @@ public class PacMau5ActorScript : MonoBehaviour
 
     private bool GetInput(string inputValue)
     {
-        if (!Input.GetButtonDown(inputValue))
+        if (!Input.GetButton(inputValue))
         {
             return false;
         }
