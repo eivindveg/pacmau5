@@ -1,17 +1,19 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using UnityEngine;
+using System.Collections;
 
-using UnityEngine;
 
-// ReSharper disable once CheckNamespace
 public class SoundSystem : MonoBehaviour
 {
-    [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1401:FieldsMustBePrivate", Justification = "Reviewed. Suppression is OK here.")]
-    public float Nr2 = 0.0f;
+    public AudioClip StartSound;
+    public AudioClip[] audioClips;
+    public float[] delayClips;
     private bool playStartSound;
 
-    private int timeBeforeStart;
-    private int nr;
-    private int clipnr;
+    private AudioSource[] allAudios { get; set; }
+
+    private int timeBeforeStart = 0;
+    private int nr = 0;
+    private int clipnr = 0;
     private bool firstRun = true;
     private bool startCount;
     private bool playAgain;
@@ -19,31 +21,24 @@ public class SoundSystem : MonoBehaviour
     private bool playnext;
     private bool pingpong;
     private bool ping;
+
     private GameObject currentCamera;
 
-    public AudioClip StartSound { get; set; }
-
-    public AudioClip[] AudioClips { get; set; }
-
-    public float[] DelayClips { get; set; }
-
-    private AudioSource[] AllAudios { get; set; }
-
-    public void AssignCamera(GameObject sceneCamera)
-    {
-        this.currentCamera = sceneCamera;
-    }
+    public float nr2 = 0.0f;
 
     // Use this for initialization
-    // ReSharper disable once UnusedMember.Local
-    private void Start()
+    void Start()
     {
-        this.AllAudios = currentCamera.gameObject.GetComponents<AudioSource>();
+        allAudios = currentCamera.gameObject.GetComponents<AudioSource>();
+    }
+
+    public void AssignCamera(GameObject currentCamera)
+    {
+        this.currentCamera = currentCamera;
     }
 
     // Update is called once per frame
-    // ReSharper disable once UnusedMember.Local
-    private void Update()
+    void Update()
     {
         if (firstRun)
         {
@@ -58,8 +53,8 @@ public class SoundSystem : MonoBehaviour
 
         if (playStartSound)
         {
-            this.AllAudios[1].clip = StartSound;
-            this.AllAudios[1].Play();
+            allAudios[1].clip = StartSound;
+            allAudios[1].Play();
             firstRun = false;
             playStartSound = false;
             startCount = true;
@@ -69,7 +64,7 @@ public class SoundSystem : MonoBehaviour
         {
             nr++;
 
-            if (nr > this.DelayClips[clipnr])
+            if (nr > delayClips[clipnr])
             {
                 playnext = true;
                 startCount = false;
@@ -81,42 +76,46 @@ public class SoundSystem : MonoBehaviour
         if (playnext)
         {
             playnext = false;
-            this.AllAudios[0].clip = this.AudioClips[clipnr];
+            allAudios[0].clip = audioClips[clipnr];
 
             if (clipnr == 1)
             {
                 pingpong = true;
             }
 
-            this.AllAudios[0].Play();
+            allAudios[0].Play();
         }
-
         if (pingpong)
         {
+
             if (ping)
             {
-                this.Nr2--;
+                nr2--;
             }
             else
             {
-                this.Nr2++;
+                nr2++;
             }
 
-            if (this.Nr2 > this.DelayClips[2] && !ping)
+            if (nr2 > delayClips[2] && !ping)
             {
-                this.AllAudios[1].clip = this.AudioClips[1];
-                this.AllAudios[1].Play();
+
+                allAudios[1].clip = audioClips[1];
+                allAudios[1].Play();
 
                 ping = true;
             }
-
-            if (this.Nr2 < 0.0f && ping)
+            if (nr2 < 0.0f && ping)
             {
-                this.AllAudios[0].clip = this.AudioClips[1];
-                this.AllAudios[0].Play();
+
+                allAudios[0].clip = audioClips[1];
+                allAudios[0].Play();
 
                 ping = false;
             }
+
         }
+
     }
+
 }

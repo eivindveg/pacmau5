@@ -222,7 +222,8 @@ MonoBehaviour:
   delayClips:
   - 220
   - 200
-  - 370
+  - 395
+  nr2: 0
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1
