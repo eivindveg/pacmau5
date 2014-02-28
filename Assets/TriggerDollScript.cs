@@ -8,10 +8,11 @@ public class TriggerDollScript : MonoBehaviour
     private GameObject right;
     private GameObject front;
 
+    // Casts a ray from both the forward and left trigger objects, then returns true if neither hit a target.
     public bool IsLeftClear()
     {
         var direction = transform.TransformDirection(Vector3.left);
-        if (Physics.Raycast(new Ray(this.left.transform.position, direction), ScanDistance + this.transform.localScale.x/2))
+        if (Physics.Raycast(new Ray(this.left.transform.position, direction), ScanDistance + (this.transform.localScale.x / 2)))
         {
             return false;
         }
@@ -26,13 +27,15 @@ public class TriggerDollScript : MonoBehaviour
         return true;
     }
 
+    // As above, but for right.
     public bool IsRightClear()
     {
         var direction = transform.TransformDirection(Vector3.right);
-        if (Physics.Raycast(new Ray(this.right.transform.position, direction), ScanDistance + this.transform.localScale.x/2))
+        if (Physics.Raycast(new Ray(this.right.transform.position, direction), ScanDistance + (this.transform.localScale.x / 2)))
         {
             return false;
         }
+
         var position = this.transform.position;
         position.z -= 0.3f;
         if (Physics.Raycast(new Ray(position, direction), ScanDistance + transform.localScale.x))
@@ -48,6 +51,7 @@ public class TriggerDollScript : MonoBehaviour
         return this.IsLeftClear() && this.IsRightClear();
     }
 
+    // Sends a ray forwards from all three trigger objects, then returns false if any of them hit a wall
     public bool IsClearForward()
     {
         var forwardDirection = transform.TransformDirection(Vector3.forward);
@@ -74,6 +78,7 @@ public class TriggerDollScript : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void Start()
     {
+        // Assign trigger objects.
         this.left = transform.Find("LeftTrigger").gameObject;
         this.right = transform.Find("RightTrigger").gameObject;
         this.front = transform.Find("FrontTrigger").gameObject;

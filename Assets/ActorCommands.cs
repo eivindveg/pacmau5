@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 
 using UnityEngine;
 
@@ -14,18 +13,21 @@ public class ActorCommands : MonoBehaviour
 
     private static int GhostSpawnTimer { get; set; }
 
+    // Called when killing or spawning ghosts.
     public static void ResetGhostTimer()
     {
         GhostSpawnTimer = DefaultGhostTimer;
     }
 
-    [SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1126:PrefixCallsCorrectly", Justification = "Reviewed. Suppression is OK here.")]
+    // Static method for killing the player.
     public static void PlayerKill(GameObject player)
     {
         if (player.tag == "Player")
         {
             ScoreScript.Lives--;
             Destroy(player);
+
+            // If we've run out of lives, skip straight to the end game screen.
             if (ScoreScript.Lives <= 0)
             {
                 Application.LoadLevel(3);
@@ -40,7 +42,7 @@ public class ActorCommands : MonoBehaviour
         }
     }
 
-    [SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1126:PrefixCallsCorrectly", Justification = "Reviewed. Suppression is OK here.")]
+    // Static method for killing ghosts.
     public static void GhostKill(GameObject ghost)
     {
         if (ghost.tag == "Ghost")
@@ -73,12 +75,13 @@ public class ActorCommands : MonoBehaviour
     // ReSharper disable once UnusedMember.Local
     private void Start()
     {
+        // When the scene starts, create a blank list and start the ghost timer.
         ghosts = new List<GameObject>();
         ResetGhostTimer();
     }
 
-    // Update is called once per frame
     // ReSharper disable once UnusedMember.Local
+    // Check if there is a timer running on ghost spawning. Spawn a ghost if the timer is out and we have less than four ghosts.
     private void Update()
     {
         if (GhostSpawnTimer >= 1)
