@@ -66,25 +66,6 @@ public class PacMau5ActorScript : MonoBehaviour
         this.triggerDoll = transform.Find("Body/TriggerDoll").gameObject.GetComponent<TriggerDollScript>();
     }
 
-    private void Blink()
-    {
-        this.blinkTimer++;
-        if (this.blinkTimer < 10 || this.blinkTimer < 30 || this.blinkTimer < 50)
-        {
-            this.mau5Model.SetActive(true);
-        }
-        else
-        {
-            this.mau5Model.SetActive(false);
-        }
-
-        if (this.blinkTimer >= 60)
-        {
-            this.blinkTimer = 0;
-            this.mau5Model.SetActive(true);
-        }
-    }
-
     private void DecrementTimers()
     {
         // If the actor currently has a teleport cooldown, decrement it.
@@ -103,11 +84,6 @@ public class PacMau5ActorScript : MonoBehaviour
             }
         }
 
-        if (this.killTimer >= 1 || this.godModeFrames >= 1)
-        {
-            // Blink this frame. Different from killTimer's blink in that this is for super mode.
-            this.Blink();
-        }
 
         // This only applies to player actors
         if (this.isPlayer)
@@ -123,9 +99,6 @@ public class PacMau5ActorScript : MonoBehaviour
                 {
                     this.ghostKiller = true;
                     this.mau5Model.renderer.material.color = SuperColor;
-
-                    // Fixes an issue that can cause the player to become invisible after ingesting multiple pills.
-                    this.mau5Model.SetActive(true);
                 }
             }
             else
@@ -137,6 +110,7 @@ public class PacMau5ActorScript : MonoBehaviour
                 }
             }
         }
+
     }
 
     // Update is called once per frame
