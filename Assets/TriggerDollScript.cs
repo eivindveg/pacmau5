@@ -23,7 +23,7 @@ public class TriggerDollScript : MonoBehaviour
             return false;
         }
 
-        if (Physics.Raycast(new Ray(this.center.transform.position, direction), ScanDistance + this.transform.localScale.x))
+        if (Physics.Raycast(new Ray(this.center.transform.position, direction), (2 * ScanDistance) + this.transform.localScale.x))
         {
             return false;
         }
@@ -45,7 +45,7 @@ public class TriggerDollScript : MonoBehaviour
             return false;
         }
 
-        if (Physics.Raycast(new Ray(this.center.transform.position, direction), ScanDistance + this.transform.localScale.x))
+        if (Physics.Raycast(new Ray(this.center.transform.position, direction), (2 * ScanDistance) + this.transform.localScale.x))
         {
             return false;
         }
