@@ -104,6 +104,9 @@ public class PacMau5ActorScript : MonoBehaviour
                 {
                     this.ghostKiller = true;
                     this.mau5Model.renderer.material.color = SuperColor;
+
+                    // Fixes a bug that can cause the player to become invisible after ingesting multiple pills.
+                    this.mau5Model.SetActive(true);
                 }
 
                 this.Blink();
