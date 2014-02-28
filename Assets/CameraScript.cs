@@ -7,6 +7,7 @@ public class CameraScript : MonoBehaviour
 
     private PlayerSpawnScript spawn;
 
+    // Assign the passed player to the camera. Made available for use if the player dies.
     public void AssignPlayer(GameObject player)
     {
         if (player.tag == "Player")
@@ -15,9 +16,10 @@ public class CameraScript : MonoBehaviour
         }
     }
 
-    public void AssignSpawn(PlayerSpawnScript spawn)
+    // Get the spawn object for this level so we know who to ask for a new player to follow
+    public void AssignSpawn(PlayerSpawnScript spawnScript)
     {
-        this.spawn = spawn;
+        this.spawn = spawnScript;
     }
 
     // Use this for initialization
@@ -26,7 +28,7 @@ public class CameraScript : MonoBehaviour
     {
     }
 
-    // Update is called once per frame
+    // Follow the player. Get a new one if our player actor has been killed.
     // ReSharper disable once UnusedMember.Local
     private void Update()
     {
@@ -34,9 +36,11 @@ public class CameraScript : MonoBehaviour
         {
             this.AssignPlayer(this.spawn.GetPlayer());
         }
-
-        Vector3 newPosition = player.transform.position;
+        else
+        { 
+        Vector3 newPosition = this.player.transform.position;
         newPosition.y += 8;
         this.transform.position = newPosition;
+        }
     }
 }

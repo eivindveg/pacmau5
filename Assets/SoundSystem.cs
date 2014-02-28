@@ -1,119 +1,122 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Diagnostics.CodeAnalysis;
 
+using UnityEngine;
 
-public class SoundSystem : MonoBehaviour {
-	public AudioClip StartSound;
-	public AudioClip[] audioClips;
-	public float[] delayClips;
-	private bool playStartSound;
+// ReSharper disable once CheckNamespace
+public class SoundSystem : MonoBehaviour
+{
+    [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1401:FieldsMustBePrivate", Justification = "Reviewed. Suppression is OK here.")]
+    public float Nr2 = 0.0f;
+    private bool playStartSound;
 
-	private AudioSource[] allAudios { get; set; }
+    private int timeBeforeStart;
+    private int nr;
+    private int clipnr;
+    private bool firstRun = true;
+    private bool startCount;
+    private bool playAgain;
 
-	private int timeBeforeStart = 0;
-	private int nr = 0;
-	private int clipnr = 0;
-	private bool firstRun = true;
-	private bool startCount;
-	private bool playAgain;
-	
-	private bool playnext;
-	private bool pingpong;
-	private bool ping;
-
+    private bool playnext;
+    private bool pingpong;
+    private bool ping;
     private GameObject currentCamera;
 
-	public float nr2 = 0.0f;
+    public AudioClip StartSound { get; set; }
 
-	// Use this for initialization
-	void Start()
-	{
-		allAudios = currentCamera.gameObject.GetComponents<AudioSource>();
-	}
+    public AudioClip[] AudioClips { get; set; }
 
-    public void AssignCamera(GameObject currentCamera)
+    public float[] DelayClips { get; set; }
+
+    private AudioSource[] AllAudios { get; set; }
+
+    public void AssignCamera(GameObject sceneCamera)
     {
-        this.currentCamera = currentCamera;
+        this.currentCamera = sceneCamera;
     }
 
-	// Update is called once per frame
-	void Update ()
-	{
-		if(firstRun)
-		{
-			timeBeforeStart++;
+    // Use this for initialization
+    // ReSharper disable once UnusedMember.Local
+    private void Start()
+    {
+        this.AllAudios = currentCamera.gameObject.GetComponents<AudioSource>();
+    }
 
-			if(timeBeforeStart>20)
-			{
-				playStartSound = true;
-				firstRun = false;
-			}
-		}
+    // Update is called once per frame
+    // ReSharper disable once UnusedMember.Local
+    private void Update()
+    {
+        if (firstRun)
+        {
+            timeBeforeStart++;
 
-		if(playStartSound)
-		{
-			allAudios[1].clip = StartSound;
-			allAudios[1].Play();
-			firstRun = false;
-			playStartSound = false;
-			startCount = true;
-		}
+            if (timeBeforeStart > 20)
+            {
+                playStartSound = true;
+                firstRun = false;
+            }
+        }
 
-		if(startCount){
-			nr++;
+        if (playStartSound)
+        {
+            this.AllAudios[1].clip = StartSound;
+            this.AllAudios[1].Play();
+            firstRun = false;
+            playStartSound = false;
+            startCount = true;
+        }
 
-			if(nr > delayClips[clipnr])
-			{
-				playnext = true;
-				startCount = false;
-				nr = 0;
-				clipnr = 1;
-			}
-		}
+        if (startCount)
+        {
+            nr++;
 
-		if(playnext)
-		{
-			playnext = false;
-			allAudios[0].clip = audioClips[clipnr];
+            if (nr > this.DelayClips[clipnr])
+            {
+                playnext = true;
+                startCount = false;
+                nr = 0;
+                clipnr = 1;
+            }
+        }
 
-			if(clipnr == 1)
-			{
-				pingpong=true;
-			}
+        if (playnext)
+        {
+            playnext = false;
+            this.AllAudios[0].clip = this.AudioClips[clipnr];
 
-			allAudios[0].Play();
-		}
-		if(pingpong)
-		{
+            if (clipnr == 1)
+            {
+                pingpong = true;
+            }
 
-			if(ping)
-			{
-				nr2--;
-			}
-			else
-			{
-				nr2++;
-			}
+            this.AllAudios[0].Play();
+        }
 
-			if(nr2 > delayClips[2] && !ping)
-			{
+        if (pingpong)
+        {
+            if (ping)
+            {
+                this.Nr2--;
+            }
+            else
+            {
+                this.Nr2++;
+            }
 
-				allAudios[1].clip = audioClips[1];
-				allAudios[1].Play();
+            if (this.Nr2 > this.DelayClips[2] && !ping)
+            {
+                this.AllAudios[1].clip = this.AudioClips[1];
+                this.AllAudios[1].Play();
 
-				ping = true;
-			}
-			if(nr2 < 0.0f && ping)
-			{
+                ping = true;
+            }
 
-				allAudios[0].clip = audioClips[1];
-				allAudios[0].Play();
+            if (this.Nr2 < 0.0f && ping)
+            {
+                this.AllAudios[0].clip = this.AudioClips[1];
+                this.AllAudios[0].Play();
 
-				ping = false;
-			}
-
-		}
-
-	}
-
+                ping = false;
+            }
+        }
+    }
 }
