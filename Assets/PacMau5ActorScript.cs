@@ -26,7 +26,6 @@ public class PacMau5ActorScript : MonoBehaviour
     private float[] wallDistance;
     private int framesSinceLeftBlocked;
     private int framesSinceRightBlocked;
-    private int blinkTimer;
     private int godModeFrames;
     private GameObject actorModel;
     private GameObject mau5Model;
