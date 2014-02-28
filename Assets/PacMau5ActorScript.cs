@@ -46,9 +46,6 @@ public class PacMau5ActorScript : MonoBehaviour
         // Make sure we know if this is a player without checking its tag all the time
         this.isPlayer = this.tag == "Player";
 
-        // Preinit variable
-        this.blinkTimer = 0;
-
         // Make sure player gets god mode right after spawning. Prevents ghost cheesing.
         this.killTimer = this.isPlayer ? 180 : 0;
 
