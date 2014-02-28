@@ -15,6 +15,11 @@ public class PlayerSpawnScript : MonoBehaviour
         this.player.transform.position = spawnPosition;
     }
 
+    public GameObject GetPlayer()
+    {
+        return this.player;
+    }
+
     // Use this for initialization
     // ReSharper disable once UnusedMember.Local
     [SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1126:PrefixCallsCorrectly", Justification = "Reviewed. Suppression is OK here.")]
@@ -22,5 +27,11 @@ public class PlayerSpawnScript : MonoBehaviour
     {
         this.SpawnPlayer();
         Instantiate(Resources.Load("HUD/ScoreGUI"));
+        GameObject currentCamera = (GameObject)Instantiate(Resources.Load("Actors/Scene" + Application.loadedLevel + "Camera"));
+
+        currentCamera.transform.rotation = Quaternion.Euler(90, 0, 0);
+        CameraScript camScript = currentCamera.GetComponent<CameraScript>();
+        camScript.AssignSpawn(this);
+        currentCamera.GetComponent<SoundSystem>().AssignCamera(currentCamera);
     }
 }

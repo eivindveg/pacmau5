@@ -21,13 +21,20 @@ public class SoundSystem : MonoBehaviour {
 	private bool pingpong;
 	private bool ping;
 
-	private float nr2 = 0.0f;
+    private GameObject currentCamera;
+
+	public float nr2 = 0.0f;
 
 	// Use this for initialization
 	void Start()
 	{
-		allAudios = Camera.main.gameObject.GetComponents<AudioSource>();
+		allAudios = currentCamera.gameObject.GetComponents<AudioSource>();
 	}
+
+    public void AssignCamera(GameObject currentCamera)
+    {
+        this.currentCamera = currentCamera;
+    }
 
 	// Update is called once per frame
 	void Update ()

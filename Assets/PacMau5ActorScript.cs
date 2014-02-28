@@ -131,7 +131,7 @@ public class PacMau5ActorScript : MonoBehaviour
             }
         }
 
-        var localDirection = this.RegisterDirection() ?? this.direction;
+        string localDirection = this.RegisterDirection() ?? this.direction;
         this.Rotate(this.direction);
         this.Move(localDirection);
         if (this.tag == "Player")
@@ -230,8 +230,8 @@ public class PacMau5ActorScript : MonoBehaviour
             return;
         }
 
-        var x = transform.position.x;
-        var z = transform.position.z;
+        float x = transform.position.x;
+        float z = transform.position.z;
 
         if (!this.isPlayer)
         {
@@ -294,7 +294,7 @@ public class PacMau5ActorScript : MonoBehaviour
                 break;
         }
 
-        var newPosition = new Vector3(x, transform.position.y, z);
+        Vector3 newPosition = new Vector3(x, transform.position.y, z);
         transform.position = newPosition;
     }
 
@@ -318,7 +318,7 @@ public class PacMau5ActorScript : MonoBehaviour
                 break;
         }
 
-        var newRotation = Quaternion.identity;
+        Quaternion newRotation = Quaternion.identity;
         newRotation.eulerAngles = new Vector3(0, y, 0);
         this.playerModel.transform.rotation = newRotation;
     }
@@ -366,7 +366,7 @@ public class PacMau5ActorScript : MonoBehaviour
 
         if (this.direction == null)
         {
-            var dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
+            int dirAsInt = (int)Mathf.Round(Random.Range(0, 4));
             switch (dirAsInt)
             {
                 case 0:
