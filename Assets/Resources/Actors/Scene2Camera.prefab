@@ -222,7 +222,7 @@ MonoBehaviour:
   delayClips:
   - 220
   - 200
-  - 1250
+  - 1550
   nr2: 0
 --- !u!124 &12400000
 Behaviour:
