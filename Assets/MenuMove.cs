@@ -20,7 +20,7 @@ public class MenuMove : MonoBehaviour {
 
 
 		}
-		if (this.transform.position.x <= -20)
+		if (this.transform.position.x <= -17)
 		{
 			this.transform.position = new Vector3 (20, 0, 11);
 		}
