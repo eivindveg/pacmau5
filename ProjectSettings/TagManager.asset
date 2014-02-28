@@ -6,7 +6,6 @@ TagManager:
   - Wall
   - TriggerDoll
   - ScorePill
-  - AmmoPill
   - LargePill
   - PlayerSpawn
   - GhostSpawn

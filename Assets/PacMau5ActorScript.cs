@@ -26,8 +26,6 @@ public class PacMau5ActorScript : MonoBehaviour
     private float[] wallDistance;
     private int framesSinceLeftBlocked;
     private int framesSinceRightBlocked;
-    private int ammunition;
-
     private int blinkTimer;
     private int godModeFrames;
     private GameObject playerModel;
@@ -40,11 +38,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
     public int TeleportCooldown { get; set; }
 
-    public void AddAmmo(int amnt)
-    {
-        this.ammunition++;
-    }
-
     public void TriggerGodMode(int duration)
     {
         this.godModeFrames = duration;
@@ -55,7 +48,6 @@ public class PacMau5ActorScript : MonoBehaviour
     private void Start()
     {
         this.blinkTimer = 0;
-        this.ammunition = 0;
         this.killTimer = this.tag == "Player" ? 180 : 0;
         this.playerModel = transform.Find("Body").gameObject;
 
@@ -105,11 +97,6 @@ public class PacMau5ActorScript : MonoBehaviour
 
         if (this.isPlayer)
         {
-            if (Input.GetButtonDown("Shoot"))
-            {
-                this.Shoot();
-            }
-
             if (this.godModeFrames >= 1)
             {
                 this.godModeFrames--;
@@ -400,16 +387,6 @@ public class PacMau5ActorScript : MonoBehaviour
         }
 
         return true;
-    }
-
-    private void Shoot()
-    {
-        if (this.ammunition >= 1)
-        {
-            this.ammunition--;
-
-            // INSTANTIATE BULLET OBJECT
-        }
     }
 
     // ReSharper disable once UnusedMember.Local

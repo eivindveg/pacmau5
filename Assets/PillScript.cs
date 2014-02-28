@@ -18,11 +18,6 @@ public class PillScript : MonoBehaviour
                 ScoreScript.CurrentScore++;
                 PillMonitor.EatPill(this.gameObject);
             }
-            else if (this.tag == "AmmoPill")
-            {
-               var actorScript = other.gameObject.GetComponent<PacMau5ActorScript>();
-               actorScript.AddAmmo(1);
-            }
             else if (this.tag == "LargePill")
             {
                 var actorScript = other.gameObject.GetComponent<PacMau5ActorScript>();
