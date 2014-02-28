@@ -8,11 +8,13 @@ public class CameraScript : MonoBehaviour
     private PlayerSpawnScript spawn;
 
     // Assign the passed player to the camera. Made available for use if the player dies.
-    public void AssignPlayer(GameObject player)
+    public void AssignPlayer(GameObject newPlayer)
     {
-        if (player.tag == "Player")
+        if (newPlayer != null) { 
+        if (newPlayer.tag == "Player")
         {
-            this.player = player;
+            this.player = newPlayer;
+        }
         }
     }
 
